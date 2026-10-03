@@ -1,12 +1,14 @@
 /**
- * Cricket Arena — Litquidity-Style Editorial Blog Engine
+ * Cricket Arena — Litquidity-Style Editorial Cricket Engine
+ * Features: High-performance rendering, SEO/GEO deep linking,
+ * AdSense monetization units, GA4 telemetry & Core Web Vitals observability.
  */
 
 let allPosts = [];
 let currentCategory = "All";
 let searchQuery = "";
+let articleStartTime = null;
 
-// DOM Elements
 const featuredSlot = document.getElementById("featured-story-slot");
 const stackSlot = document.getElementById("stacked-stories-slot");
 const editorialGrid = document.getElementById("editorial-grid");
@@ -16,9 +18,10 @@ const themeToggleBtn = document.getElementById("theme-toggle-btn");
 const readerModal = document.getElementById("reader-modal");
 const modalCloseBtn = document.getElementById("modal-close-btn");
 
-// Initialize
 document.addEventListener("DOMContentLoaded", async () => {
   initTheme();
+  initWebVitalsObservability();
+  initAnchorAdControls();
   await loadPosts();
   initCategoryFilters();
   initSearch();
@@ -26,7 +29,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   checkUrlHash();
 });
 
-// Load posts from JSON with robust fallback
 async function loadPosts() {
   try {
     const res = await fetch("posts.json?t=" + Date.now());
@@ -49,35 +51,33 @@ function renderAll() {
   renderGridSection();
 }
 
-// Render Top Hero (Lead + Stack)
 function renderHeroSection() {
   if (!allPosts || allPosts.length === 0) return;
 
   const filtered = getFilteredPosts();
   if (filtered.length === 0) {
-    featuredSlot.innerHTML = `<div class="p-8 text-center text-muted">No articles found matching "${searchQuery}".</div>`;
+    featuredSlot.innerHTML = `<div class="p-8 text-center text-muted">No cricket intelligence found matching "${escapeHtml(searchQuery)}".</div>`;
     stackSlot.innerHTML = "";
     return;
   }
 
-  // Lead Featured Story (first item or item marked featured)
   const leadPost = filtered[0];
   featuredSlot.innerHTML = `
     <div class="featured-lead-card" onclick="openArticleModal('${leadPost.id}')">
       <div class="featured-media-wrapper">
-        <img class="featured-media-img" src="${leadPost.image}" alt="${escapeHtml(leadPost.title)}" loading="lazy" />
+        <img class="featured-media-img" src="${leadPost.image}" alt="${escapeHtml(leadPost.title)}" width="1200" height="675" loading="eager" fetchpriority="high" />
         <span class="media-badge">${escapeHtml(leadPost.badge || leadPost.category)}</span>
         ${leadPost.stat_number ? `
           <div class="stat-chip">
             <span class="stat-chip-num">${escapeHtml(leadPost.stat_number)}</span>
-            <span class="stat-chip-label">${escapeHtml(leadPost.stat_label || "KEY METRIC")}</span>
+            <span class="stat-chip-label">${escapeHtml(leadPost.stat_label || "KEY STAT")}</span>
           </div>
         ` : ''}
       </div>
       <h2 class="featured-title">${escapeHtml(leadPost.title)}</h2>
       <p class="featured-subdeck">${escapeHtml(leadPost.subdeck)}</p>
       <div class="author-meta-row">
-        <img class="author-avatar" src="${leadPost.author_avatar || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&h=80&fit=crop'}" alt="${escapeHtml(leadPost.author)}" />
+        <img class="author-avatar" src="${leadPost.author_avatar || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&h=80&fit=crop'}" alt="${escapeHtml(leadPost.author)}" width="24" height="24" loading="lazy" />
         <span class="author-name">${escapeHtml(leadPost.author || "Editorial Desk")}</span>
         <span class="meta-separator">•</span>
         <span class="meta-date">${escapeHtml(leadPost.date)}</span>
@@ -87,18 +87,17 @@ function renderHeroSection() {
     </div>
   `;
 
-  // Secondary Stack (Next 3 stories)
   const stackPosts = filtered.slice(1, 4);
   stackSlot.innerHTML = stackPosts.map(post => `
     <div class="stacked-story-card" onclick="openArticleModal('${post.id}')">
       <div class="stacked-thumb-wrapper">
-        <img class="stacked-thumb-img" src="${post.image}" alt="${escapeHtml(post.title)}" loading="lazy" />
+        <img class="stacked-thumb-img" src="${post.image}" alt="${escapeHtml(post.title)}" width="480" height="270" loading="lazy" />
       </div>
       <div class="stacked-story-info">
         <h3 class="stacked-story-title">${escapeHtml(post.title)}</h3>
         <p class="stacked-story-excerpt">${escapeHtml(post.subdeck)}</p>
         <div class="author-meta-row">
-          <img class="author-avatar" src="${post.author_avatar || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&h=80&fit=crop'}" alt="${escapeHtml(post.author)}" />
+          <img class="author-avatar" src="${post.author_avatar || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&h=80&fit=crop'}" alt="${escapeHtml(post.author)}" width="24" height="24" loading="lazy" />
           <span class="author-name">${escapeHtml(post.author || "Editorial Desk")}</span>
           <span class="meta-separator">•</span>
           <span class="meta-date">${escapeHtml(post.date)}</span>
@@ -108,10 +107,8 @@ function renderHeroSection() {
   `).join("");
 }
 
-// Render Lower 3-Column Grid
 function renderGridSection() {
   const filtered = getFilteredPosts();
-  // We can show items from index 4 onwards, or all items when filtering
   const gridPosts = (currentCategory === "All" && !searchQuery) ? filtered.slice(4) : filtered;
 
   if (gridPosts.length === 0) {
@@ -127,14 +124,14 @@ function renderGridSection() {
   editorialGrid.innerHTML = gridPosts.map(post => `
     <div class="editorial-card" onclick="openArticleModal('${post.id}')">
       <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="${post.image}" alt="${escapeHtml(post.title)}" loading="lazy" />
+        <img class="editorial-card-img" src="${post.image}" alt="${escapeHtml(post.title)}" width="600" height="338" loading="lazy" />
         ${post.badge ? `<span class="media-badge">${escapeHtml(post.badge)}</span>` : ''}
       </div>
       <div class="card-category-tag">${escapeHtml(post.category)}</div>
       <h3 class="editorial-card-title">${escapeHtml(post.title)}</h3>
       <p class="editorial-card-excerpt">${escapeHtml(post.subdeck)}</p>
       <div class="author-meta-row">
-        <img class="author-avatar" src="${post.author_avatar || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&h=80&fit=crop'}" alt="${escapeHtml(post.author)}" />
+        <img class="author-avatar" src="${post.author_avatar || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&h=80&fit=crop'}" alt="${escapeHtml(post.author)}" width="24" height="24" loading="lazy" />
         <span class="author-name">${escapeHtml(post.author)}</span>
         <span class="meta-separator">•</span>
         <span class="meta-date">${escapeHtml(post.date)}</span>
@@ -157,7 +154,6 @@ function getFilteredPosts() {
   });
 }
 
-// Category Pills
 function initCategoryFilters() {
   const categories = ["All", "Match Analysis", "Player Focus", "Tactics & Speed", "Tournament Dossier", "Analytics"];
   filterPillsContainer.innerHTML = categories.map(cat => `
@@ -175,7 +171,6 @@ window.setCategory = function(cat) {
   renderAll();
 };
 
-// Search Filter
 function initSearch() {
   if (!searchInput) return;
   searchInput.addEventListener("input", (e) => {
@@ -184,10 +179,11 @@ function initSearch() {
   });
 }
 
-// Modal Reader Drawer
 window.openArticleModal = function(id) {
   const post = allPosts.find(p => p.id === id);
   if (!post) return;
+
+  articleStartTime = Date.now();
 
   const modalCategory = document.getElementById("modal-category");
   const modalDate = document.getElementById("modal-date");
@@ -214,7 +210,6 @@ window.openArticleModal = function(id) {
   modalHeroImg.src = post.image;
   modalHeroImg.alt = post.title;
 
-  // Stat Callout Box
   if (post.stat_number) {
     modalStatBox.style.display = "flex";
     modalStatValue.textContent = post.stat_number;
@@ -223,16 +218,38 @@ window.openArticleModal = function(id) {
     modalStatBox.style.display = "none";
   }
 
-  // Article Body Prose
+  // Render article body with in-article AdSense unit inserted after paragraph 2
+  const inArticleAdHtml = `
+    <div class="ad-slot-wrapper ad-in-article" style="margin: 28px 0; border: 1px dashed var(--border-color); border-radius: 8px; padding: 12px; background: rgba(0,0,0,0.02); text-align: center;">
+      <span class="ad-label" style="display:block; font-size: 0.65rem; letter-spacing: 0.1em; color: var(--text-muted); margin-bottom: 8px; font-weight: 700; text-transform: uppercase;">Sponsored Recommendation</span>
+      <ins class="adsbygoogle"
+           style="display:block; text-align:center; min-height: 250px;"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+           data-ad-slot="1122334455"></ins>
+    </div>
+  `;
+
   if (Array.isArray(post.body)) {
-    modalBodyProse.innerHTML = post.body.map(para => `<p>${escapeHtml(para)}</p>`).join("");
+    if (post.body.length > 2) {
+      const p1_2 = post.body.slice(0, 2).map(p => `<p>${escapeHtml(p)}</p>`).join("");
+      const pRem = post.body.slice(2).map(p => `<p>${escapeHtml(p)}</p>`).join("");
+      modalBodyProse.innerHTML = p1_2 + inArticleAdHtml + pRem;
+    } else {
+      modalBodyProse.innerHTML = post.body.map(para => `<p>${escapeHtml(para)}</p>`).join("") + inArticleAdHtml;
+    }
   } else if (typeof post.body === "string") {
-    modalBodyProse.innerHTML = `<p>${escapeHtml(post.body)}</p>`;
+    modalBodyProse.innerHTML = `<p>${escapeHtml(post.body)}</p>` + inArticleAdHtml;
   } else {
-    modalBodyProse.innerHTML = `<p>${escapeHtml(post.subdeck)}</p>`;
+    modalBodyProse.innerHTML = `<p>${escapeHtml(post.subdeck)}</p>` + inArticleAdHtml;
   }
 
-  // Takeaways
+  // Request adsbygoogle refresh safely
+  try {
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  } catch (e) {}
+
   if (post.takeaways && post.takeaways.length > 0) {
     modalTakeawaysCard.style.display = "block";
     modalTakeawaysList.innerHTML = post.takeaways.map(t => `<li>${escapeHtml(t)}</li>`).join("");
@@ -243,9 +260,26 @@ window.openArticleModal = function(id) {
   readerModal.classList.add("open");
   document.body.style.overflow = "hidden";
   window.location.hash = post.id;
+
+  // Track engagement & scroll depth
+  trackArticleScroll(post.id);
+
+  if (window.gtag) {
+    window.gtag('event', 'select_content', {
+      content_type: 'article',
+      item_id: post.id
+    });
+  }
 };
 
 window.closeArticleModal = function() {
+  if (articleStartTime && window.gtag) {
+    const dwellSeconds = Math.round((Date.now() - articleStartTime) / 1000);
+    window.gtag('event', 'user_engagement', {
+      engagement_time_msec: dwellSeconds * 1000
+    });
+  }
+
   readerModal.classList.remove("open");
   document.body.style.overflow = "";
   history.replaceState(null, null, ' ');
@@ -272,7 +306,97 @@ function checkUrlHash() {
   }
 }
 
-// Dark / Light Mode
+function initAnchorAdControls() {
+  const anchorClose = document.getElementById("anchor-close-btn");
+  if (anchorClose) {
+    anchorClose.addEventListener("click", () => {
+      const anchor = document.getElementById("sticky-anchor-ad");
+      if (anchor) anchor.style.display = "none";
+    });
+  }
+}
+
+function trackArticleScroll(postId) {
+  const readerBody = document.querySelector(".reader-modal-body");
+  if (!readerBody) return;
+
+  const thresholds = [25, 50, 75, 100];
+  const reached = new Set();
+
+  const handleScroll = () => {
+    const total = readerBody.scrollHeight - readerBody.clientHeight;
+    if (total <= 0) return;
+    const progress = Math.min(100, Math.round((readerBody.scrollTop / total) * 100));
+
+    thresholds.forEach(pct => {
+      if (progress >= pct && !reached.has(pct)) {
+        reached.add(pct);
+        if (window.gtag) {
+          window.gtag('event', 'scroll_depth', {
+            post_id: postId,
+            depth_percent: pct
+          });
+        }
+      }
+    });
+  };
+
+  readerBody.removeEventListener("scroll", handleScroll);
+  readerBody.addEventListener("scroll", handleScroll, { passive: true });
+}
+
+// Core Web Vitals Observability & Analytics Telemetry
+function initWebVitalsObservability() {
+  if (!('PerformanceObserver' in window)) return;
+
+  function reportMetric(name, value, rating) {
+    if (window.gtag) {
+      window.gtag('event', 'web_vitals', {
+        metric_name: name,
+        metric_value: Math.round(value),
+        metric_rating: rating,
+        non_interaction: true
+      });
+    }
+  }
+
+  try {
+    // LCP (Largest Contentful Paint)
+    new PerformanceObserver((entryList) => {
+      const entries = entryList.getEntries();
+      const lastEntry = entries[entries.length - 1];
+      if (lastEntry) {
+        const lcp = lastEntry.renderTime || lastEntry.loadTime;
+        const rating = lcp < 2500 ? 'good' : (lcp < 4000 ? 'needs-improvement' : 'poor');
+        reportMetric('LCP', lcp, rating);
+      }
+    }).observe({ type: 'largest-contentful-paint', buffered: true });
+
+    // FID (First Input Delay)
+    new PerformanceObserver((entryList) => {
+      for (const entry of entryList.getEntries()) {
+        const fid = entry.processingStart - entry.startTime;
+        const rating = fid < 100 ? 'good' : (fid < 300 ? 'needs-improvement' : 'poor');
+        reportMetric('FID', fid, rating);
+      }
+    }).observe({ type: 'first-input', buffered: true });
+
+    // CLS (Cumulative Layout Shift)
+    let clsValue = 0;
+    new PerformanceObserver((entryList) => {
+      for (const entry of entryList.getEntries()) {
+        if (!entry.hadRecentInput) {
+          clsValue += entry.value;
+          const rating = clsValue < 0.1 ? 'good' : (clsValue < 0.25 ? 'needs-improvement' : 'poor');
+          reportMetric('CLS', clsValue * 1000, rating);
+        }
+      }
+    }).observe({ type: 'layout-shift', buffered: true });
+  } catch (e) {
+    console.debug('Web Vitals observer telemetry initialized.');
+  }
+}
+
 function initTheme() {
   const saved = localStorage.getItem("ca_theme") || "light";
   document.documentElement.setAttribute("data-theme", saved);
@@ -296,7 +420,6 @@ function updateThemeIcon(theme) {
     : `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>`;
 }
 
-// Share Functions
 window.shareStory = function(platform) {
   const url = window.location.href;
   const title = document.getElementById("modal-title").textContent;

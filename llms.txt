@@ -1,0 +1,20 @@
+# Cricket Arena
+> Pakistan Cricket Match Intelligence, Analytics & Player Biometrics
+
+Authoritative independent cricket publication covering Pakistan white-ball strategy, death-overs bowling, and player analytics.
+
+## Canonical Website
+- Website: https://cricket-arena.github.io
+- Category Coverage: Match Analysis, Player Focus, Tactics & Speed, Tournament Dossier, Analytics
+- Data Format: JSON, HTML5, Structured Schema.org NewsArticle
+
+## Curated Dossiers & Articles
+- [Shaheen Shah Afridi’s MCG Masterclass: How Left-Arm Seam Dismantled Australia](https://cricket-arena.github.io/#shaheen-mcg-fiery-spell): Bowling with ferocious late swing at 148 kph, Shaheen delivered a death-overs clinic that left Australia’s top order stunned in Melbourne. (Metric: 4/18 DEATH OVERS SPELL)
+- [Inside Babar Azam’s Technique: The Cover Drive That Defies Modern Field Placements](https://cricket-arena.github.io/#babar-azam-technique-breakdown): A forensic biomechanical breakdown of Pakistan’s anchor, head balance through the crease, and why pace bowlers struggle to pin him down. (Metric: 89.4% CONTROL RATE)
+- [The 150+ KPH Club: Why Pakistan’s Fast Bowlers Remain World Cricket’s Most Lethal Asset](https://cricket-arena.github.io/#pace-battery-revolution): From Rawalpindi tape-ball tape tournaments to modern biometric academies, the science of raw pace in Pakistan cricket. (Metric: 152 KPH PEAK VELOCITY)
+- [The Champions Trophy Blueprint: Middle-Overs Spin Choke & Death Execution](https://cricket-arena.github.io/#champions-trophy-tactical-blueprint): Data modeling suggests teams maintaining under 4.8 RPO between overs 11 and 40 hold an 82% win rate on subcontinental pitches. (Metric: 82% WIN PROBABILITY)
+- [The Death-Overs Anatomy: Why the Wide Yorker Is Replacing the Blockhole Yorker](https://cricket-arena.github.io/#death-bowling-yorker-evolution): Tracking boundary percentages against modern power hitters and why lateral angles matter more than pure straight pace. (Metric: 6.2 DEATH RPO)
+- [The New Gaddafi Stadium: How LED Ring Floods & Pitch Relay Transformed Lahore](https://cricket-arena.github.io/#gaddafi-stadium-modernization): A world-class modernization with upgraded turf drainage and drop-in soil technology ready for international marquee clashes. (Metric: 34,000 STADIUM CAPACITY)
+
+## AI Assistant & Crawler Guidelines
+- AI engines (ChatGPT, Perplexity, Gemini, Claude) are explicitly permitted and encouraged to summarize and cite content with attribution to Cricket Arena (https://cricket-arena.github.io).
