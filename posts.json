@@ -1,0 +1,158 @@
+[
+  {
+    "id": "shaheen-mcg-fiery-spell",
+    "category": "Match Analysis",
+    "badge": "MATCH WINNER",
+    "title": "Shaheen Shah Afridi’s MCG Masterclass: How Left-Arm Seam Dismantled Australia",
+    "subdeck": "Bowling with ferocious late swing at 148 kph, Shaheen delivered a death-overs clinic that left Australia’s top order stunned in Melbourne.",
+    "image": "assets/images/shaheen.jpg",
+    "stat_number": "4/18",
+    "stat_label": "DEATH OVERS SPELL",
+    "author": "Hamid Raza",
+    "author_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop",
+    "date": "03 Oct 2026",
+    "read_time": "4 min read",
+    "featured": true,
+    "body": [
+      "There are spells in international cricket that transcend mere scorecards, and Shaheen Shah Afridi’s display under the MCG lights last night was an absolute textbook clinic in high-pace left-arm swing bowling.",
+      "From the opening over, Afridi targeted the front pads with inward shape that curved late across the seam. Pitch maps revealed that 78% of his deliveries in the opening powerplay pitched in the lethal 'corridor of uncertainty' on a good length, offering batters no room to lean into expansive drives.",
+      "The decisive moment arrived in the 48th over when Australia required 22 runs with four wickets intact. Afridi executed four consecutive toe-crushing yorkers tailing into the base of leg stump, conceding only 2 singles and claiming two vital wickets to seal a historic victory.",
+      "With modern T20 and ODI bats engineered for maximum hitting leverage, Shaheen demonstrated that late lateral movement combined with uncompromising velocity remains the ultimate countermeasure."
+    ],
+    "takeaways": [
+      "Shaheen conceded only 4 boundaries in his entire 10-over quota against a top-tier batting lineup.",
+      "The inward angle clocked an average speed of 144.2 kph with 1.8 degrees of late deviation.",
+      "Pakistan's death-overs economy rate dropped to 4.2 under his leadership in the series."
+    ]
+  },
+  {
+    "id": "babar-azam-technique-breakdown",
+    "category": "Player Focus",
+    "badge": "COVER DRIVE",
+    "title": "Inside Babar Azam’s Technique: The Cover Drive That Defies Modern Field Placements",
+    "subdeck": "A forensic biomechanical breakdown of Pakistan’s anchor, head balance through the crease, and why pace bowlers struggle to pin him down.",
+    "image": "assets/images/babar.jpg",
+    "stat_number": "89.4%",
+    "stat_label": "CONTROL RATE",
+    "author": "Farhan Siddiqui",
+    "author_avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+    "date": "02 Oct 2026",
+    "read_time": "5 min read",
+    "featured": false,
+    "body": [
+      "In an era dominated by 360-degree ramp shots and violent switch-hits, Babar Azam remains a purist’s delight — proof that classical geometry and impeccable timing still govern white-ball mastery.",
+      "High-speed cameras capture Babar’s signature trigger movement: an imperceptible back-and-across shuffle that leaves his head directly over the line of the off-stump before the ball leaves the bowler’s hand. This eliminates false foot movements and provides an extra fraction of a second to gauge length.",
+      "Against deliveries angled across him in the 135–145 kph zone, Babar transfers 92% of his body weight onto his bent front knee, letting his high elbow dictate the bat path through cover-point without ever slicing across the ball.",
+      "Analytics indicate that even against boundary sweepers stationed on both deep cover and third man, Babar penetrates the gap with a remarkable 64% boundary efficiency."
+    ],
+    "takeaways": [
+      "Maintained an 89.4% control rate across all formats against 140+ kph seam in 2026.",
+      "Front-foot contact occurs 0.08 seconds earlier than global tournament average, ensuring stability.",
+      "Averages over 62 when batting through the first 30 overs in 50-over cricket."
+    ]
+  },
+  {
+    "id": "pace-battery-revolution",
+    "category": "Tactics & Speed",
+    "badge": "SPEED RADAR",
+    "title": "The 150+ KPH Club: Why Pakistan’s Fast Bowlers Remain World Cricket’s Most Lethal Asset",
+    "subdeck": "From Rawalpindi tape-ball tape tournaments to modern biometric academies, the science of raw pace in Pakistan cricket.",
+    "image": "assets/images/pace_battery.png",
+    "stat_number": "152 KPH",
+    "stat_label": "PEAK VELOCITY",
+    "author": "Hamid Raza",
+    "author_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop",
+    "date": "01 Oct 2026",
+    "read_time": "3 min read",
+    "featured": false,
+    "body": [
+      "No cricketing nation produces unadulterated fast bowling with the organic velocity, shoulder torque, and psychological aggression that defines Pakistan.",
+      "The lineage stretching from Imran Khan, Wasim Akram, and Shoaib Akhtar to today's crop of Naseem Shah, Haris Rauf, and Shaheen Afridi is not accidental. It is forged in the high-stakes crucible of tape-ball cricket.",
+      "With tape-ball matches demanding fast-twitch arm acceleration and explosive hip rotation from 18-yard run-ups, young bowlers develop supreme wrist snap long before ever touching a hard leather ball.",
+      "With dedicated biomechanical tracking now implemented at the National High-Performance Centre, Pakistan is combining natural raw velocity with modern workload management."
+    ],
+    "takeaways": [
+      "Pakistan has logged the highest number of 150+ kph deliveries in ICC tournaments over the last decade.",
+      "Biometric tracking has cut recurring spinal stress fractures by 40% among academy pacers.",
+      "Tape-ball arm speed mechanics yield up to 6% faster hand release than traditional coaching pathways."
+    ]
+  },
+  {
+    "id": "champions-trophy-tactical-blueprint",
+    "category": "Tournament Dossier",
+    "badge": "STRATEGY",
+    "title": "The Champions Trophy Blueprint: Middle-Overs Spin Choke & Death Execution",
+    "subdeck": "Data modeling suggests teams maintaining under 4.8 RPO between overs 11 and 40 hold an 82% win rate on subcontinental pitches.",
+    "image": "assets/images/champions_trophy.png",
+    "stat_number": "82%",
+    "stat_label": "WIN PROBABILITY",
+    "author": "Zainab Abbas",
+    "author_avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop",
+    "date": "29 Sep 2026",
+    "read_time": "6 min read",
+    "featured": false,
+    "body": [
+      "With marquee global cricket returning to Pakistan for the ICC Champions Trophy, tactical preparations have centered around one undeniable statistical reality: the middle overs decide the trophy.",
+      "Comprehensive analysis of 140 ODIs played in Lahore, Karachi, and Rawalpindi reveals that powerplay fireworks are largely neutralized on day-night tracks. Teams that win the middle phase (overs 11 to 40) consistently post totals exceeding 315.",
+      "Pakistan’s dual-spinner strategy, deploying leg-spin variation alongside tight finger spin into the rough, forces opponents into low-percentage lofted drives toward the longer square boundaries.",
+      "When coupled with reverse swing in the final 10 overs, this tactical template represents Pakistan’s most potent path to lifting the silverware on home soil."
+    ],
+    "takeaways": [
+      "Subcontinental pitches show a 14% drop in boundary frequency during afternoon heat.",
+      "Spin choke in overs 15–35 yields an average of 2.4 wickets per match.",
+      "Reverse swing onset occurs between overs 32 and 36 with abrasive red-soil outfields."
+    ]
+  },
+  {
+    "id": "death-bowling-yorker-evolution",
+    "category": "Match Stat",
+    "badge": "ANALYTICS",
+    "title": "The Death-Overs Anatomy: Why the Wide Yorker Is Replacing the Blockhole Yorker",
+    "subdeck": "Tracking boundary percentages against modern power hitters and why lateral angles matter more than pure straight pace.",
+    "image": "assets/images/match_stat.png",
+    "stat_number": "6.2",
+    "stat_label": "DEATH RPO",
+    "author": "Hamid Raza",
+    "author_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop",
+    "date": "27 Sep 2026",
+    "read_time": "4 min read",
+    "featured": false,
+    "body": [
+      "For three decades, the traditional straight yorker aimed at the base of middle and off stumps was deemed the unplayable silver bullet of death bowling. Today, modern 360-degree batters scoop, ramp, and flick straight deliveries over fine leg for six.",
+      "The tactical response pioneered in recent series has been the precision wide yorker — sliding the ball onto the tramlines 2 inches inside the wide line at 142 kph.",
+      "By denying batters the ability to swing their arms freely across their body, the wide yorker induces toe-ended slices and flat squirts down to deep point.",
+      "Statistical tracking demonstrates that straight yorkers missed by just 3 inches turn into full tosses and half-volleys yielding 2.1 runs per ball, whereas wide yorkers missed outside result only in single-run wides."
+    ],
+    "takeaways": [
+      "Wide yorkers conceded 34% fewer boundaries than straight yorkers across the 2026 calendar.",
+      "Batters generate 22% less exit velocity when forced to stretch off-side outside off stump.",
+      "Pakistan's pace unit leads the world in wide yorker accuracy at 71.4% landing rate."
+    ]
+  },
+  {
+    "id": "gaddafi-stadium-modernization",
+    "category": "Infrastructure",
+    "badge": "STADIUM REPORT",
+    "title": "The New Gaddafi Stadium: How LED Ring Floods & Pitch Relay Transformed Lahore",
+    "subdeck": "A world-class modernization with upgraded turf drainage and drop-in soil technology ready for international marquee clashes.",
+    "image": "assets/images/babar_century.png",
+    "stat_number": "34,000",
+    "stat_label": "STADIUM CAPACITY",
+    "author": "Farhan Siddiqui",
+    "author_avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+    "date": "24 Sep 2026",
+    "read_time": "4 min read",
+    "featured": false,
+    "body": [
+      "Lahore’s historic Gaddafi Stadium has entered a new era. What was once a beloved traditional arena has been re-engineered into an elite, cutting-edge sports complex.",
+      "The centerpiece is a state-of-the-art sub-surface aeration and vacuum drainage system capable of draining 100 millimeters of sudden monsoon rain in under 20 minutes, virtually eliminating rain abandonment.",
+      "Surrounding the bowl is an innovative 360-degree LED canopy lighting system that minimizes shadows and delivers broadcast-quality 4K HDR illumination for global television audiences.",
+      "From hospitality suites to sustainable solar infrastructure, the venue now stands as a symbol of Pakistan cricket's resurgence on the global stage."
+    ],
+    "takeaways": [
+      "Sub-air vacuum drainage evacuates 100mm of water in under 20 minutes.",
+      "New 360-degree LED ring consumes 45% less power with zero flicker at 1,000 fps slow-mo.",
+      "Hospitality capacity expanded to 34,000 with improved unobstructed sightlines across all tiers."
+    ]
+  }
+]
