@@ -11,7 +11,20 @@
   <meta name="description" content="Pakistan cricket intelligence & tactical analytics covering match breakdowns, player biomechanics, ICC Champions Trophy, PSL draft insights, and high-velocity bowling in English & Urdu." />
   <meta name="theme-color" content="#0B3C26" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-  <link rel="canonical" href="https://cricket-arena.github.io/" />
+    <link rel="canonical" href="https://cricket-arena.github.io/" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+
+  <!-- Canonical & Domain Enforcement (Eliminates www/non-www duplicate content) -->
+  <script>
+    (function() {
+      if (window.location.hostname.indexOf('www.') === 0) {
+        var cleanHost = window.location.hostname.replace(/^www\./, '');
+        window.location.replace('https://' + cleanHost + window.location.pathname + window.location.search + window.location.hash);
+      }
+    })();
+  </script>
 
   <!-- Google Search Console Ownership Verification -->
   <meta name="google-site-verification" content="google-site-verification-pending-setup" />
@@ -148,7 +161,7 @@
     <!-- Section: Latest (Hero Split Grid) -->
     <section class="section-latest">
       <div class="section-header-row">
-        <h1 class="section-title">Latest</h1>
+        <h1 class="section-title">Cricket Arena: Pakistan Cricket, PSL Highlights &amp; Match Analysis</h1>
         <button class="browse-all-btn" onclick="document.getElementById('filter-section').scrollIntoView({behavior: 'smooth'})">Browse All</button>
       </div>
 
@@ -414,7 +427,7 @@
           <span id="modal-read-time" class="meta-date">5 min read</span>
         </div>
 
-        <h1 id="modal-title" class="modal-title"></h1>
+        <h2 id="modal-title" class="modal-title">Cricket Intelligence &amp; Match Analysis Report</h2>
         <p id="modal-subdeck" class="modal-subdeck"></p>
 
         <div class="modal-author-bar">
