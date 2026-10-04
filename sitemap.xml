@@ -8,12 +8,32 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://cricket-arena.github.io/#pakistan-cricket-sports-match-highl-923</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://cricket-arena.github.io/assets/posts/pakistan-cricket-sports-match-highl-923.png</image:loc>
+      <image:title>Pakistan Cricket — Sports &amp; Match Highlights Insight</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cricket-arena.github.io/#pakistan-cricket-sports-match-highl-466</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://cricket-arena.github.io/assets/posts/pakistan-cricket-sports-match-highl-466.png</image:loc>
+      <image:title>Pakistan Cricket — Sports &amp; Match Highlights Insight</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cricket-arena.github.io/#shaheen-mcg-fiery-spell</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://cricket-arena.github.io/assets/images/shaheen.webp</image:loc>
+      <image:loc>https://cricket-arena.github.io/assets/images/shaheen.jpg</image:loc>
       <image:title>Shaheen Shah Afridi’s MCG Masterclass: How Left-Arm Seam Dismantled Australia</image:title>
     </image:image>
   </url>
@@ -23,7 +43,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://cricket-arena.github.io/assets/images/babar.webp</image:loc>
+      <image:loc>https://cricket-arena.github.io/assets/images/babar.jpg</image:loc>
       <image:title>Inside Babar Azam’s Technique: The Cover Drive That Defies Modern Field Placements</image:title>
     </image:image>
   </url>
