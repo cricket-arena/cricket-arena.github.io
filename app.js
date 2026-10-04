@@ -271,41 +271,70 @@ window.openArticleModal = async function(id) {
     }
   }
 
-  if (modalBodyProse) {
+    if (modalBodyProse) {
     modalBodyProse.className = isUrdu ? "modal-article-prose urdu-prose" : "modal-article-prose";
     modalBodyProse.setAttribute("dir", isUrdu ? "rtl" : "ltr");
 
     let proseHtml = "";
+
+    // 1. Render Intro Block (if body exists)
+    let introParagraphs = [];
     if (Array.isArray(post.body)) {
-      proseHtml += post.body.map(para => `<p>${escapeHtml(para)}</p>`).join("");
-    } else if (typeof post.body === "string") {
-      proseHtml += `<p>${escapeHtml(post.body)}</p>`;
-    } else {
-      proseHtml += `<p>${escapeHtml(post.subdeck || "")}</p>`;
+      introParagraphs = post.body;
+    } else if (typeof post.body === "string" && post.body.trim()) {
+      introParagraphs = [post.body];
+    } else if (post.subdeck && (!post.sections || post.sections.length === 0)) {
+      introParagraphs = [post.subdeck];
     }
 
-    if (post.sections && Array.isArray(post.sections)) {
+    if (introParagraphs.length > 0) {
+      proseHtml += `<div class="article-intro-block">` + 
+        introParagraphs.map(para => `<p>${escapeHtml(para)}</p>`).join("") + 
+      `</div>`;
+    }
+
+    // 2. Render Distinct Isolated Section Containers (Anti-Collision Architecture)
+    if (post.sections && Array.isArray(post.sections) && post.sections.length > 0) {
       post.sections.forEach(sec => {
-        if (sec.title) {
-          proseHtml += `<h2>${escapeHtml(sec.title)}</h2>`;
-        }
+        const secTitle = sec.title || sec.heading || "";
+        let secParas = [];
         if (sec.paragraphs && Array.isArray(sec.paragraphs)) {
-          proseHtml += sec.paragraphs.map(p => `<p>${escapeHtml(p)}</p>`).join("");
+          secParas = sec.paragraphs;
+        } else if (sec.content) {
+          if (Array.isArray(sec.content)) {
+            secParas = sec.content;
+          } else if (typeof sec.content === "string") {
+            // Split long paragraphs cleanly by newlines or sentence pauses if very long
+            const rawParts = sec.content.split(/
+
++/).filter(Boolean);
+            secParas = rawParts.length > 0 ? rawParts : [sec.content];
+          }
         }
+
+        const parasHtml = secParas.map(p => `<p>${escapeHtml(p)}</p>`).join("");
+        proseHtml += `
+          <div class="article-section-block">
+            ${secTitle ? `<h2 class="section-block-heading">${escapeHtml(secTitle)}</h2>` : ''}
+            ${parasHtml}
+          </div>
+        `;
       });
     }
 
+    // 3. Render FAQs in isolated card container
     if (post.faqs && Array.isArray(post.faqs) && post.faqs.length > 0) {
+      const faqTitle = isUrdu ? "اکثر پوچھے جانے والے سوالات (FAQs)" : "Frequently Asked Questions (FAQs)";
       proseHtml += `
         <div class="modal-faqs-section">
           <div class="modal-faqs-heading">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
-            ${isUrdu ? "اکثر پوچھے جانے والے سوالات (FAQs)" : "Frequently Asked Questions (FAQs)"}
+            ${faqTitle}
           </div>
           ${post.faqs.map(faq => `
             <div class="modal-faq-item">
-              <div class="modal-faq-question">${escapeHtml(faq.question)}</div>
-              <div class="modal-faq-answer">${escapeHtml(faq.answer)}</div>
+              <div class="modal-faq-question">${escapeHtml(faq.question || "")}</div>
+              <div class="modal-faq-answer">${escapeHtml(faq.answer || "")}</div>
             </div>
           `).join("")}
         </div>
