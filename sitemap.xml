@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://cricket-arena.github.io/</loc>
     <lastmod>2026-10-04</lastmod>
@@ -8,33 +7,53 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://cricket-arena.github.io/#pakistan-cricket-sports-match-highl-697</loc>
+    <loc>https://cricket-arena.github.io/#pakistan-pace-battery-tactics-urdu</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://cricket-arena.github.io/assets/posts/pakistan-cricket-sports-match-highl-697.png</image:loc>
-      <image:title>Pakistan Cricket — Sports &amp; Match Highlights Insight</image:title>
+      <image:loc>https://cricket-arena.github.io/assets/posts/pakistan-pace-battery-tactics-urdu_cover.jpg</image:loc>
+      <image:title>شاہین، نسیم اور حارث: پاکستان کی 150 کلومیٹر پیس بیٹری کا نیا ٹیکٹیکل پلان اور بائیو مکینکس</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://cricket-arena.github.io/#pakistan-cricket-sports-match-highl-923</loc>
+    <loc>https://cricket-arena.github.io/#babar-azam-technique-analysis-urdu</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://cricket-arena.github.io/assets/posts/pakistan-cricket-sports-match-highl-923.png</image:loc>
-      <image:title>Pakistan Cricket — Sports &amp; Match Highlights Insight</image:title>
+      <image:loc>https://cricket-arena.github.io/assets/posts/babar-azam-technique-analysis-urdu_cover.jpg</image:loc>
+      <image:title>بابر اعظم کی تکنیک اور کور ڈرائیو کا تفصیلی تجزیہ: اعداد و شمار کیا کہتے ہیں؟</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://cricket-arena.github.io/#pakistan-cricket-sports-match-highl-466</loc>
+    <loc>https://cricket-arena.github.io/#champions-trophy-pakistan-venues-urdu</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://cricket-arena.github.io/assets/posts/pakistan-cricket-sports-match-highl-466.png</image:loc>
-      <image:title>Pakistan Cricket — Sports &amp; Match Highlights Insight</image:title>
+      <image:loc>https://cricket-arena.github.io/assets/posts/champions-trophy-pakistan-venues-urdu_cover.jpg</image:loc>
+      <image:title>آئی سی سی چیمپئنز ٹرافی: لاہور، کراچی اور راولپنڈی اسٹیڈیمز کی اپ گریڈیشن اور پچ تجزیہ</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cricket-arena.github.io/#reverse-swing-death-bowling-urdu</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://cricket-arena.github.io/assets/posts/reverse-swing-death-bowling-urdu_cover.jpg</image:loc>
+      <image:title>ٹی 20 کرکٹ میں ریورس سوئنگ اور وائیڈ یارکرز کا جادو: پاکستانی بولرز کا تاریخی ہتھیار</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cricket-arena.github.io/#psl-talent-analytics-draft-urdu</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://cricket-arena.github.io/assets/posts/psl-talent-analytics-draft-urdu_cover.jpg</image:loc>
+      <image:title>پاکستان سپر لیگ (PSL) پلیئر ڈرافٹ، ٹیپ بال ٹیلنٹ اور ڈیٹا اینالیٹکس کا انقلاب</image:title>
     </image:image>
   </url>
   <url>
@@ -43,7 +62,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://cricket-arena.github.io/assets/images/shaheen.jpg</image:loc>
+      <image:loc>https://cricket-arena.github.io/assets/posts/shaheen-mcg-fiery-spell_cover.jpg</image:loc>
       <image:title>Shaheen Shah Afridi’s MCG Masterclass: How Left-Arm Seam Dismantled Australia</image:title>
     </image:image>
   </url>
@@ -53,7 +72,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://cricket-arena.github.io/assets/images/babar.jpg</image:loc>
+      <image:loc>https://cricket-arena.github.io/assets/posts/babar-azam-technique-breakdown_cover.jpg</image:loc>
       <image:title>Inside Babar Azam’s Technique: The Cover Drive That Defies Modern Field Placements</image:title>
     </image:image>
   </url>
@@ -63,7 +82,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://cricket-arena.github.io/assets/images/pace_battery.webp</image:loc>
+      <image:loc>https://cricket-arena.github.io/assets/posts/pace-battery-revolution_cover.jpg</image:loc>
       <image:title>The 150+ KPH Club: Why Pakistan’s Fast Bowlers Remain World Cricket’s Most Lethal Asset</image:title>
     </image:image>
   </url>
@@ -73,7 +92,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://cricket-arena.github.io/assets/images/champions_trophy.webp</image:loc>
+      <image:loc>https://cricket-arena.github.io/assets/posts/champions-trophy-tactical-blueprint_cover.jpg</image:loc>
       <image:title>The Champions Trophy Blueprint: Middle-Overs Spin Choke &amp; Death Execution</image:title>
     </image:image>
   </url>
@@ -83,7 +102,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://cricket-arena.github.io/assets/images/match_stat.webp</image:loc>
+      <image:loc>https://cricket-arena.github.io/assets/posts/death-bowling-yorker-evolution_cover.jpg</image:loc>
       <image:title>The Death-Overs Anatomy: Why the Wide Yorker Is Replacing the Blockhole Yorker</image:title>
     </image:image>
   </url>
@@ -93,7 +112,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
-      <image:loc>https://cricket-arena.github.io/assets/images/babar_century.webp</image:loc>
+      <image:loc>https://cricket-arena.github.io/assets/posts/gaddafi-stadium-modernization_cover.jpg</image:loc>
       <image:title>The New Gaddafi Stadium: How LED Ring Floods &amp; Pitch Relay Transformed Lahore</image:title>
     </image:image>
   </url>

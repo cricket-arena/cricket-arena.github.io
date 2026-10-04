@@ -151,8 +151,13 @@ function renderGridSection() {
 
 function getFilteredPosts() {
   return allPosts.filter(post => {
-    const matchesCat = (currentCategory === "All") || (post.category && post.category.toLowerCase() === currentCategory.toLowerCase());
-    if (!matchesCat) return false;
+    const isUrduCat = currentCategory === "اردو اینالیٹکس (Urdu)" || currentCategory === "اردو اینالیٹکس";
+    if (isUrduCat) {
+      if (post.lang !== 'ur' && !/[؀-ۿ]/.test(post.title || "")) return false;
+    } else {
+      const matchesCat = (currentCategory === "All") || (post.category && post.category.toLowerCase() === currentCategory.toLowerCase());
+      if (!matchesCat) return false;
+    }
 
     if (!searchQuery) return true;
     const q = searchQuery.toLowerCase();
@@ -165,7 +170,7 @@ function getFilteredPosts() {
 
 function initCategoryFilters() {
   if (!filterPillsContainer) return;
-  const categories = ["All", "Match Analysis", "Player Focus", "Tactics & Speed", "Tournament Dossier", "Analytics"];
+  const categories = ["All", "اردو اینالیٹکس (Urdu)", "Match Analysis", "Player Focus", "Tactics & Speed", "Tournament Dossier", "Analytics"];
   filterPillsContainer.innerHTML = categories.map(cat => `
     <button class="pill-btn ${cat === currentCategory ? 'active' : ''}" onclick="setCategory('${cat}')">
       ${cat}
@@ -270,13 +275,44 @@ window.openArticleModal = async function(id) {
     modalBodyProse.className = isUrdu ? "modal-article-prose urdu-prose" : "modal-article-prose";
     modalBodyProse.setAttribute("dir", isUrdu ? "rtl" : "ltr");
 
+    let proseHtml = "";
     if (Array.isArray(post.body)) {
-      modalBodyProse.innerHTML = post.body.map(para => `<p>${escapeHtml(para)}</p>`).join("");
+      proseHtml += post.body.map(para => `<p>${escapeHtml(para)}</p>`).join("");
     } else if (typeof post.body === "string") {
-      modalBodyProse.innerHTML = `<p>${escapeHtml(post.body)}</p>`;
+      proseHtml += `<p>${escapeHtml(post.body)}</p>`;
     } else {
-      modalBodyProse.innerHTML = `<p>${escapeHtml(post.subdeck || "")}</p>`;
+      proseHtml += `<p>${escapeHtml(post.subdeck || "")}</p>`;
     }
+
+    if (post.sections && Array.isArray(post.sections)) {
+      post.sections.forEach(sec => {
+        if (sec.title) {
+          proseHtml += `<h2>${escapeHtml(sec.title)}</h2>`;
+        }
+        if (sec.paragraphs && Array.isArray(sec.paragraphs)) {
+          proseHtml += sec.paragraphs.map(p => `<p>${escapeHtml(p)}</p>`).join("");
+        }
+      });
+    }
+
+    if (post.faqs && Array.isArray(post.faqs) && post.faqs.length > 0) {
+      proseHtml += `
+        <div class="modal-faqs-section">
+          <div class="modal-faqs-heading">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+            ${isUrdu ? "اکثر پوچھے جانے والے سوالات (FAQs)" : "Frequently Asked Questions (FAQs)"}
+          </div>
+          ${post.faqs.map(faq => `
+            <div class="modal-faq-item">
+              <div class="modal-faq-question">${escapeHtml(faq.question)}</div>
+              <div class="modal-faq-answer">${escapeHtml(faq.answer)}</div>
+            </div>
+          `).join("")}
+        </div>
+      `;
+    }
+
+    modalBodyProse.innerHTML = proseHtml;
   }
 
   if (modalTakeawaysCard && modalTakeawaysList) {
