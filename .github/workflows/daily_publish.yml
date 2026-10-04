@@ -3,7 +3,7 @@ name: 🚀 Cricket Arena Daily Publisher
 on:
   schedule:
     # Autonomous daily execution (06:00 PM PKT / 13:00 UTC)
-    - cron: '0 13 * * *'
+   # - cron: '0 13 * * *'
   workflow_dispatch:
     inputs:
       topic:
