@@ -1,5 +1,137 @@
 [
   {
+    "id": "psl-2027-calendar-alignment-and-player-retent-0680",
+    "category": "Tournament Dossier",
+    "badge": "FRANCHISE DATA 📊",
+    "title": "PSL 2027 Calendar Alignment and Player Retention Algorithms: The Tactical Draft Matrix",
+    "subdeck": "Franchise analysts develop advanced WAR metrics and matchup indices as global league schedules intensify competition for elite overseas talent.",
+    "image": "assets/posts/psl-2027-calendar-alignment-and-player-retent-0680_cover.jpg",
+    "stat_number": "6 FRANCHISES",
+    "stat_label": "TACTICAL ANALYTICS",
+    "author": "Farhan Siddiqui",
+    "author_role": "Data & Match-Matchup Strategist",
+    "author_avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&fit=crop",
+    "date": "08 Oct 2026",
+    "read_time": "4 min read",
+    "featured": false,
+    "body": [
+      "With the international cricket calendar growing increasingly congested, Pakistan Super League (PSL) franchises are overhauling their scouting and draft recruitment strategies through algorithmic player valuation models.",
+      "Rather than relying purely on aggregate run tallies and conventional bowling averages, analytics teams are evaluating prospective draft picks on Wins Above Replacement (WAR), Phase-Wise Expected Value, and specific matchup success against high-pace short bowling.",
+      "As scheduling clashes with foreign franchise windows create availability constraints, teams that construct deep, versatile domestic cores capable of tactical phase-switching are consistently yielding superior tournament net run rates."
+    ],
+    "sections": [
+      {
+        "heading": "Evaluating Phase-Specific Player Utility",
+        "content": "A batsman scoring 25 off 12 balls in death overs (16-20) now commands significantly higher WAR indices than a top-order anchor scoring 45 off 38 balls in low-leverage overs."
+      },
+      {
+        "heading": "Algorithmic Scouting in Emerging Domestic Tiers",
+        "content": "Franchises deploy automated ball-tracking cameras in regional grade-II tournaments to identify untracked 145 KPH pacers and fearless boundary hitters from smaller towns."
+      }
+    ],
+    "takeaways": [
+      "PSL franchises integrate advanced WAR and phase-wise algorithmic analytics into draft planning.",
+      "Scouting models prioritize death-over strike rates and high-pace boundary percentages over aggregate averages.",
+      "Investments into regional grassroots data capture provide decisive competitive advantages in player auctions."
+    ],
+    "faqs": [
+      {
+        "question": "What is Wins Above Replacement (WAR) in T20 cricket?",
+        "answer": "WAR measures how many additional victories a specific player contributes to their team compared to a replacement-level baseline player in identical situations."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
+    "id": "subcontinental-dew-dynamics-how-modern-revers-0415",
+    "category": "Bowling Biomechanics",
+    "badge": "PACE INTELLIGENCE ⚡",
+    "title": "Subcontinental Dew Dynamics: How Modern Reverse-Swing Combats Flat Pitch Batting Bias",
+    "subdeck": "Biomechanical breakdown of upright seam orientation, ball maintenance, and 145+ KPH execution on abrasive Lahore and Rawalpindi tracks.",
+    "image": "assets/posts/subcontinental-dew-dynamics-how-modern-revers-0415_cover.jpg",
+    "stat_number": "145+ KPH",
+    "stat_label": "OPTIMAL VELOCITY",
+    "author": "Hamid Raza",
+    "author_role": "Senior Cricket Correspondent",
+    "author_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop",
+    "date": "08 Oct 2026",
+    "read_time": "4 min read",
+    "featured": false,
+    "body": [
+      "As international cricket venues witness unprecedented boundary flurries and 200+ run chases, elite Pakistani pace bowling coaches are doubling down on the art that historically defined national mastery: late, explosive reverse swing.",
+      "Under rigorous aerodynamic analysis, reverse swing requires precise conditions: an abrasive ball surface on one hemisphere, immaculate sweat-free polishing on the other, and release speeds exceeding 138 KPH to trigger boundary-layer turbulence.",
+      "When executed with an upright seam tilting subtly towards the batsman's toes, the ball experiences late aerodynamic drift in the final 3 meters of trajectory, dramatically reducing the batsman's reactionary window from 0.45 seconds to sub-0.38 seconds."
+    ],
+    "sections": [
+      {
+        "heading": "The Aerodynamics of Turbulent Boundary Layers",
+        "content": "As air flows over the rough hemisphere, turbulence develops earlier than over the smooth side, creating a high-to-low pressure differential that pulls the ball inward at high terminal velocity."
+      },
+      {
+        "heading": "Combating Subcontinental Dew Factor",
+        "content": "Maintaining ball dryness in night games with synthetic towels and dry dirt friction remains crucial to preventing premature water absorption that destroys reverse swing."
+      }
+    ],
+    "takeaways": [
+      "Reverse swing remains the single most devastating weapon against modern power-hitting on flat decks.",
+      "Requires release velocity above 138 KPH and meticulous asymmetric ball maintenance.",
+      "Reduces batsman decision-making window to less than 0.38 seconds at the point of release."
+    ],
+    "faqs": [
+      {
+        "question": "Why is high pace essential for reverse swing?",
+        "answer": "High speed (typically 138-145+ KPH) is required to trigger early aerodynamic turbulence along the rough side of the cricket ball before it arrives at the batsman."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
+    "id": "pakistan-squad-restructuring-for-sri-lanka-t2-8168",
+    "category": "Match Tactics",
+    "badge": "SQUAD RESTRUCTURING 🏏",
+    "title": "Pakistan Squad Restructuring for Sri Lanka T20Is: Sahibzada Farhan's Tactical Powerplay Blueprint",
+    "subdeck": "PCB selectors signal an aggressive transition towards modern strike-rate optimization, granting new leadership responsibilities and pace flexibility.",
+    "image": "assets/posts/pakistan-squad-restructuring-for-sri-lanka-t2-8168_cover.jpg",
+    "stat_number": "148.5 SR",
+    "stat_label": "TARGET POWERPLAY RATE",
+    "author": "Ali Sher",
+    "author_role": "Pace Biomechanics & Tactical Analyst",
+    "author_avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&h=120&fit=crop",
+    "date": "08 Oct 2026",
+    "read_time": "4 min read",
+    "featured": true,
+    "body": [
+      "The Pakistan Cricket Board's selection committee has finalized a bold, transitional squad for the forthcoming home bilateral T20I series and triangular tournament against Sri Lanka, resting frontline anchors to prioritize boundary-hitting strike rates.",
+      "With Sahibzada Farhan handed leadership responsibilities, tactical analysis indicates a radical departure from the traditional conservative powerplay template. The team management has mandated an aggressive approach in overs 1 through 6, targeting a minimum powerplay benchmark of 55 runs on batting-friendly surfaces.",
+      "On the bowling front, the inclusion of express hit-the-deck pacers alongside mystery wrist-spin variations reflects an analytical blueprint specifically tailored to exploit subcontinental dew conditions and middle-overs boundary droughts."
+    ],
+    "sections": [
+      {
+        "heading": "Deconstructing the Strike-Rate Mandate",
+        "content": "Modern T20 data demonstrates that boundary percentage in the first six overs correlates directly with win probability above 82%. Pakistan's new batting core is structured to maximize aerial fielding gaps during fielding restrictions."
+      },
+      {
+        "heading": "Middle-Overs Wicket Taking vs Defensive Containment",
+        "content": "Rather than relying on defensive fingerspinners during overs 7-14, the team setup deploys aggressive legspin and skiddy pace bouncers to force high-risk strokes from opposition middle orders."
+      }
+    ],
+    "takeaways": [
+      "PCB announces forward-looking T20I squad prioritizing aggressive boundary strike rates.",
+      "Sahibzada Farhan steps into tactical captaincy role with clear powerplay scoring mandate.",
+      "Bowling strategy shifts towards attacking middle-overs wicket-taking combinations."
+    ],
+    "faqs": [
+      {
+        "question": "What is the primary tactical objective of this squad rotation?",
+        "answer": "To develop fearless powerplay boundary hitters and test bowling combinations ahead of international ICC tournament cycles."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
     "id": "naseem-shah-wrist-seam-biomechanical-breakdown",
     "category": "Tactics & Speed",
     "badge": "SPEED BIOMECHANICS ⚡",
@@ -12,7 +144,7 @@
     "author_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop",
     "date": "07 Oct 2026",
     "read_time": "5 min read",
-    "featured": true,
+    "featured": false,
     "body": [
       "Few sights in modern international cricket match the visual poetry and lethal precision of Naseem Shah taking the new ball. While raw speed captures headlines, deep biomechanical scrutiny reveals that Naseem's true lethality lies in the pristine stability of his seam presentation at 145 to 150 kph, giving top-order batters less than 0.38 seconds of reaction time from hand to crease.",
       "High-speed 1000-frame-per-second phantom cameras deployed during recent Test and ODI series demonstrate that Naseem maintains a virtually perfect 90-degree vertical wrist angle at the instant of delivery release. Unlike conventional fast bowlers whose seam tends to wobble or tilt prematurely into the aerodynamic wake, Naseem's seam revolves upright with a backspin rate exceeding 36 revolutions per second, maximizing the Magnus effect for late, explosive outswing.",
