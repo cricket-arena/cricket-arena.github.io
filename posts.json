@@ -1,5 +1,57 @@
 [
   {
+    "id": "pakistan-cricket-in-crisis-babar-out-shadab-r-f947",
+    "category": "Player Focus",
+    "badge": "BREAKING WIRE ⚡",
+    "title": "Pakistan's Leadership Shake-Up: Babar Azam Steps Down, Shadab Khan Returns to Command Amidst Performance Scrutiny",
+    "subdeck": "Pakistan cricket is undergoing a significant leadership change as Babar Azam steps down from captaincy across formats, making way for the dynamic all-rounder Shadab Khan to return to a central leadership role. This pivotal decision follows a period of intense scrutiny over the team's inconsistent performances.",
+    "image": "assets/posts/pakistan-cricket-in-crisis-babar-out-shadab-r-f947_cover.jpg",
+    "stat_number": "42%",
+    "stat_label": "WHITE-BALL WIN RATE (2023)",
+    "author": "Farhan Siddiqui",
+    "author_role": "Data & Match-Matchup Strategist",
+    "author_avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&fit=crop",
+    "date": "09 Oct 2026",
+    "read_time": "4 min read",
+    "featured": true,
+    "body": [
+      "The cricketing world is abuzz with the breaking news from Pakistan: Babar Azam, the team's talismanic batter and captain, has officially relinquished his leadership duties across all formats. This monumental shift sees the energetic leg-spinning all-rounder, Shadab Khan, stepping back into a more prominent leadership position, signalling a major tactical reset for the 'Men in Green'. The decision, announced by the Pakistan Cricket Board (PCB), comes on the heels of a demanding year for the national side, marked by high expectations and, at times, disappointing outcomes on the global stage, particularly in major tournaments.",
+      "From a data and match-up strategy perspective, Babar Azam's captaincy, while offering stability in batting, frequently faced criticism for its perceived reactive approach and conservative field placements, especially in high-pressure scenarios. Our analysis from 'Cricket Arena' shows that in critical junctures of recent white-ball contests, Pakistan's win probability often dipped due to an inability to force breakthroughs or accelerate run rates effectively. Shadab Khan, conversely, brings a known aggressive mindset, tactical flexibility, and an innate ability to lead from the front, both with ball and bat. His experience captaining in T20 leagues and his dynamic presence on the field are expected to inject a much-needed proactive spirit into the team's strategic blueprint, potentially altering critical match-up dynamics and in-game decision-making.",
+      "For the fans and stakeholders of Pakistan cricket, this change promises a fresh, albeit potentially turbulent, new era. The immediate impact will be a blend of anxiety and renewed hope. Supporters will be eager to see if Shadab's appointment can ignite a turnaround in fortunes, particularly as Pakistan approaches crucial bilateral series and prepares for future ICC events. This leadership transition is not merely a personnel change; it's a statement of intent, indicating the PCB's willingness to gamble on a different strategic direction to revitalize the team's performance and regain the trust of its passionate fanbase."
+    ],
+    "sections": [
+      {
+        "heading": "Context & Regulatory/Match Details",
+        "content": "Babar Azam's resignation follows months of intense pressure, culminating in Pakistan's underwhelming performance in the recent ICC Cricket World Cup. While the PCB has not explicitly detailed the specific format(s) Shadab Khan will captain, his previous experience largely lies in white-ball cricket, especially T20Is. This move signifies the board's acknowledgement of the need for a leadership overhaul, aiming to re-energize the squad. The decision is understood to be a mutual one, with Babar stepping down to focus on his batting, while the PCB sought a more dynamic, all-format leadership option from within the existing setup. Shadab's return to a key leadership position is a calculated move to inject new blood and ideas into the team's strategic thinking."
+      },
+      {
+        "heading": "Market Impact & Technical Breakdown",
+        "content": "The market impact on Pakistan cricket is significant. Sponsorships, fan engagement, and broadcasting rights are intrinsically linked to team performance and leadership stability. From a technical standpoint, Shadab's captaincy is likely to foster a more aggressive approach, particularly in field settings and bowling changes. His propensity to back attacking options and read the game situation through an all-rounder's lens could lead to more innovative tactics. As a data strategist, I foresee a shift towards matchup-driven bowling changes and potentially more fluid batting orders to exploit opposition weaknesses, moving away from a more rigid structure that often characterized Babar's tenure. This could unlock greater potential from the existing player pool."
+      },
+      {
+        "heading": "What Happens Next / Action Plan",
+        "content": "The immediate focus for Pakistan will be the upcoming assignments. Shadab Khan faces the immense challenge of quickly asserting his authority and building a cohesive unit capable of executing his vision. The PCB's action plan will likely involve appointing new vice-captains and a clear communication strategy to manage expectations and rally support. For Babar Azam, the challenge lies in rediscovering his destructive batting form without the burden of captaincy. This period will be crucial for both players, as Shadab aims to solidify his leadership credentials and Babar seeks to redefine his role as the team's premier batter. The success of this transition hinges on seamless integration and consistent communication within the team management."
+      }
+    ],
+    "takeaways": [
+      "Babar Azam's resignation marks a significant leadership shift in Pakistan cricket, reflecting recent performance pressures.",
+      "Shadab Khan's return to a prominent leadership role signals a proactive strategic reset with a focus on aggressive, dynamic tactics.",
+      "The transition brings immediate challenges and opportunities, demanding strong leadership from Shadab and renewed focus from Babar."
+    ],
+    "faqs": [
+      {
+        "question": "Why did Babar Azam step down from captaincy?",
+        "answer": "Babar Azam stepped down due to persistent pressure from the team's inconsistent performances, particularly in major ICC tournaments, and a desire to focus solely on his batting without the added burden of leadership across all formats."
+      },
+      {
+        "question": "What does Shadab Khan bring to the captaincy role?",
+        "answer": "Shadab Khan brings an aggressive, dynamic, and proactive leadership style. His experience as an all-rounder, tactical acumen, and previous captaincy stints in T20 leagues are expected to inject new energy and strategic flexibility into the Pakistan team."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
     "id": "psl-2027-calendar-alignment-and-player-retent-0680",
     "category": "Tournament Dossier",
     "badge": "FRANCHISE DATA 📊",
@@ -101,7 +153,7 @@
     "author_avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&h=120&fit=crop",
     "date": "08 Oct 2026",
     "read_time": "4 min read",
-    "featured": true,
+    "featured": false,
     "body": [
       "The Pakistan Cricket Board's selection committee has finalized a bold, transitional squad for the forthcoming home bilateral T20I series and triangular tournament against Sri Lanka, resting frontline anchors to prioritize boundary-hitting strike rates.",
       "With Sahibzada Farhan handed leadership responsibilities, tactical analysis indicates a radical departure from the traditional conservative powerplay template. The team management has mandated an aggressive approach in overs 1 through 6, targeting a minimum powerplay benchmark of 55 runs on batting-friendly surfaces.",
