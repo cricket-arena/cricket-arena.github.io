@@ -1,5 +1,140 @@
 [
   {
+    "id": "the-tactical-shift-from-anchor-batting-to-hig-7863",
+    "category": "Match Tactics",
+    "badge": "STRIKE-RATE ANALYTICS",
+    "title": "The Tactical Shift from Anchor Batting to High-Impact Boundary Percentage in Modern T20s",
+    "subdeck": "Pakistan team data analysts demonstrate why maintaining high boundary frequency across overs 7 to 15 produces superior win probabilities compared to conventional wicket-preservation approaches.",
+    "image": "assets/posts/the-tactical-shift-from-anchor-batting-to-hig-7863_cover.jpg",
+    "stat_number": "68% WIN RATE",
+    "stat_label": "HIGH BOUNDARY CORRELATION",
+    "author": "Hamid Raza",
+    "author_role": "Senior Cricket Correspondent",
+    "author_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop",
+    "date": "10 Oct 2026",
+    "date_iso": "2026-10-10",
+    "read_time": "4 min read",
+    "featured": false,
+    "body": [
+      "A comprehensive statistical study conducted by national team analysts confirms that boundary percentage—rather than conventional batting average or dot-ball minimization—serves as the primary driver of T20 match victories on subcontinental pitches.",
+      "Examining international match data over the past three years, analysts found that teams hitting boundaries on 19% or more of total deliveries win 68% of matches, even when losing wickets in clusters. Conversely, teams prioritizing traditional accumulator batting in middle overs suffer severe death-over score suppression.",
+      "Pakistan's updated coaching mandate encourages middle-order batsmen to attack matchup weaknesses proactively against spin and pace, decoupling player evaluation from raw averages in favor of phase-wise Expected Runs Contributed (xRC)."
+    ],
+    "sections": [
+      {
+        "heading": "The Death of the 120 Strike-Rate Anchor",
+        "content": "On modern batting tracks where par scores exceed 200, an innings of 45 runs off 38 deliveries actively damages team expected totals by consuming balls that aggressive hitters could convert at 170+ strike rates."
+      },
+      {
+        "heading": "Matchup-Based Intent against Opposition Spin",
+        "content": "Batting lineups are now structured with left-right pairings designed to target short boundary dimensions, deploying sweep and reverse-sweep strokes to disrupt opposition defensive field placements."
+      }
+    ],
+    "takeaways": [
+      "Statistical analysis establishes boundary percentage as top predictor of T20 victories.",
+      "Teams hitting boundaries on 19%+ of deliveries achieve a 68% win rate regardless of wickets lost.",
+      "Coaching philosophy shifts decisively from traditional accumulation to phase-wise attacking intent."
+    ],
+    "faqs": [
+      {
+        "question": "Why is the traditional anchor role disappearing in modern T20 cricket?",
+        "answer": "Because run rates above 10 per over require sustained boundary hitting throughout all 20 overs, making slow-scoring accumulators a statistical net negative for team totals."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
+    "id": "managing-the-145-kph-pace-battery-high-perfor-f810",
+    "category": "Pace Biomechanics",
+    "badge": "WORKLOAD MANAGEMENT",
+    "title": "Managing the 145+ KPH Pace Battery: High-Performance Center Workload Protocols for Shaheen and Naseem",
+    "subdeck": "Biomechanical analysts and physiotherapists at the National Cricket Academy institute GPS tracking and micro-recovery cycles to preserve express fast bowlers during grueling multi-format seasons.",
+    "image": "assets/posts/managing-the-145-kph-pace-battery-high-perfor-f810_cover.jpg",
+    "stat_number": "145+ KPH",
+    "stat_label": "ELITE VELOCITY",
+    "author": "Ali Sher",
+    "author_role": "Pace Biomechanics & Tactical Analyst",
+    "author_avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&h=120&fit=crop",
+    "date": "10 Oct 2026",
+    "date_iso": "2026-10-10",
+    "read_time": "4 min read",
+    "featured": false,
+    "body": [
+      "The Pakistan Cricket Board's medical panel and high-performance biomechanics unit have implemented a data-driven workload monitoring system to manage the physical strain on frontline fast bowlers Shaheen Shah Afridi, Naseem Shah, and Haris Rauf.",
+      "Utilizing Catapult high-frequency GPS tracking vests during training and match play, sports scientists track acute-to-chronic workload ratios, deceleration impact forces, and spinal shear stress, ensuring bowlers do not exceed critical thresholds that trigger stress fractures.",
+      "The revised training regimen integrates targeted kinetic chain reinforcement, eccentric hamstring loading, and cryogenic recovery chambers, maintaining peak bowling velocities above 145 KPH across consecutive multi-day and white-ball fixtures."
+    ],
+    "sections": [
+      {
+        "heading": "Monitoring Acute-to-Chronic Workload Ratios",
+        "content": "Biomechanical research confirms that sharp spikes in bowling volume above 1.5 times a bowler's four-week rolling workload represent the single greatest predictor of lumbar stress injuries. The PCB now enforces scientific rest intervals between high-intensity spells."
+      },
+      {
+        "heading": "Optimizing Delivery Stride Impact Forces",
+        "content": "High-speed optical motion capture analysis has helped bowlers optimize front-foot landing angles, reducing ground reaction shock forces transferred up the tibia and lower back."
+      }
+    ],
+    "takeaways": [
+      "PCB institutes scientific workload management using wearable GPS impact tracking.",
+      "Acute-to-chronic workload monitoring prevents lumbar spine and hamstring breakdowns.",
+      "Biomechanical adjustments preserve 145+ KPH bowling velocity across intense tour calendars."
+    ],
+    "faqs": [
+      {
+        "question": "How do GPS vests help cricket fast bowlers avoid injury?",
+        "answer": "GPS vests track delivery impact forces, sprint meters, and mechanical intensity in real time, alerting physiotherapists when a bowler approaches danger zones for muscular fatigue."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
+    "id": "icc-delegation-approves-gaddafi-and-national--4145",
+    "category": "International Tournaments",
+    "badge": "STADIUM UPGRADES",
+    "title": "ICC Delegation Approves Gaddafi and National Stadium Modernization Ahead of Champions Trophy 2026",
+    "subdeck": "International Cricket Council venue inspection team validates world-class hospitality enclosures, LED floodlighting grids, and high-drainage subterranean outfields in Lahore and Karachi.",
+    "image": "assets/posts/icc-delegation-approves-gaddafi-and-national--4145_cover.jpg",
+    "stat_number": "100% READY",
+    "stat_label": "VENUE CLEARANCE",
+    "author": "Ali Sher",
+    "author_role": "Pace Biomechanics & Tactical Analyst",
+    "author_avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&h=120&fit=crop",
+    "date": "10 Oct 2026",
+    "date_iso": "2026-10-10",
+    "read_time": "5 min read",
+    "featured": true,
+    "body": [
+      "An expert venue inspection contingent from the International Cricket Council (ICC) has concluded comprehensive assessments of Gaddafi Stadium Lahore, National Stadium Karachi, and Rawalpindi Cricket Stadium, awarding full operational clearance for the ICC Champions Trophy.",
+      "The multi-billion-rupee renovation program, executed under accelerated construction timelines by the PCB, features reconstructed tiered grandstands, unobstructed spectator sightlines, digital hospitality lounges, and advanced vacuum-assisted subterranean drainage systems.",
+      "ICC technical delegates expressed exceptional satisfaction with player pavilion facilities, anti-doping medical suites, and newly commissioned Musco LED floodlighting systems engineered to support 4K ultra-high-definition international broadcast specifications."
+    ],
+    "sections": [
+      {
+        "heading": "Subterranean Vacuum Drainage Technology",
+        "content": "Both Lahore and Karachi outfields now feature sub-air vacuum drainage systems capable of evacuating up to 300,000 liters of surface rainwater per hour, guaranteeing match resumption within thirty minutes of severe tropical downpours."
+      },
+      {
+        "heading": "Unprecedented Spectator Sightlines and Hospitality",
+        "content": "Removing legacy perimeter metal fencing and bringing spectator seating closer to the boundary rope elevates the in-stadium fan experience to contemporary international standards."
+      }
+    ],
+    "takeaways": [
+      "ICC venue inspection team grants official tournament clearance for Pakistan stadiums.",
+      "Advanced vacuum-assisted drainage guarantees rapid match restart following rain interruptions.",
+      "High-definition LED lighting arrays and hospitality enclosures meet premium broadcast standards."
+    ],
+    "faqs": [
+      {
+        "question": "Which venues will host the marquee Champions Trophy fixtures?",
+        "answer": "Gaddafi Stadium Lahore, National Bank Stadium Karachi, and Rawalpindi Cricket Stadium are the primary host grounds."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
     "id": "abbas-afridi-to-lead-pakistan-in-hong-kong-si-57c6",
     "category": "Match Analysis",
     "badge": "BREAKING WIRE ⚡",
@@ -13,7 +148,7 @@
     "author_avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&h=120&fit=crop",
     "date": "09 Oct 2026",
     "read_time": "4 min read",
-    "featured": true,
+    "featured": false,
     "body": [
       "In a significant development for Pakistan cricket, the PCB has confirmed the appointment of fast bowler Abbas Afridi as captain for the highly anticipated Hong Kong Sixes tournament. This move, officially announced via the PCB's website, underscores a clear intent to nurture leadership talent within the national setup and provides a unique platform for Afridi to demonstrate his strategic thinking in a high-octane format.",
       "From a biomechanical and tactical perspective, Afridi's selection is astute. His ability to deliver crucial variations at pace, combined with an impressive T20 strike rate of 15.7, makes him an ideal candidate for the unforgiving Sixes format. My analysis suggests his consistent hitting of hard lengths and deceptive slower balls will be invaluable on smaller grounds, demanding a quick tactical mind for field placements and bowler rotation. This is a format where subtle pace adjustments and game intelligence dictate success.",
