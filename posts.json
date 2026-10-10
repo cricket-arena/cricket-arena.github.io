@@ -1,5 +1,152 @@
 [
   {
+    "id": "white-ball-tactical-evolution-why-dot-ball-su-3bca0340",
+    "title": "White-Ball Tactical Evolution: Why Dot-Ball Suppression Rate Has Overtaken Boundary Strike Rate in T20I Powerplays",
+    "subdeck": "Statistical breakdown of modern T20 powerplay strategy demonstrates that cutting dot balls below 35% yields higher expected totals than chasing volatile boundary spikes.",
+    "category": "Tactical Analytics",
+    "badge": "TACTICAL METRICS",
+    "stat_number": "<32% DOTS",
+    "stat_label": "WINNING THRESHOLD",
+    "image": "assets/posts/white-ball-tactical-evolution-why-dot-ball-su-3bca0340_cover.jpg",
+    "cover_image": "assets/posts/white-ball-tactical-evolution-why-dot-ball-su-3bca0340_cover.jpg",
+    "author": "Ali Sher",
+    "author_role": "Senior Cricket Strategist & Data Analyst",
+    "author_avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=120&h=120&fit=crop",
+    "date": "10 Oct 2026",
+    "read_time": "4 min read",
+    "featured": false,
+    "body": [
+      "Advanced analytics across international T20 cricket indicate a decisive strategic shift: elite white-ball teams are prioritizing dot-ball suppression rates over sheer boundary strike rates during the mandatory six-over powerplay.",
+      "Empirical match tracking across the preceding twelve months shows that teams maintaining a powerplay dot-ball percentage below 32% win 74% of their matches, regardless of whether their boundary count matches that of their opponents.",
+      "By focusing on aggressive strike rotation, punchy placement into gap corridors, and running hard on misfields, batting units systematically disrupt fielding captains, prevent pacers from executing repetitive plans, and accumulate stable foundation totals."
+    ],
+    "sections": [
+      {
+        "heading": "The Flaw of Boundary-or-Bust Approaches",
+        "content": "High boundary percentages often mask high dot-ball counts. When a top-order batter strikes three boundaries in an over but absorbs four dots across consecutive overs, the fielding side builds acute scoreboard pressure that triggers sudden collapses against changing pace."
+      },
+      {
+        "heading": "Manipulating Ring Fielders with Floor Mechanics",
+        "content": "Modern analysts train openers to employ soft-handed wrist drops toward backward point and deep mid-wicket. Converting defensive contacts into brisk singles forces inner-ring fielders to creep inward, widening gaps for lofted boundary strokes."
+      }
+    ],
+    "takeaways": [
+      "Teams keeping powerplay dot-ball rates below 32% win 74% of international T20 matches.",
+      "Active strike rotation disrupts bowling plans far more effectively than boundary spikes.",
+      "Strategic focus shifts from reckless slogging to precision placement and aggressive running."
+    ],
+    "faqs": [
+      {
+        "question": "What is dot-ball suppression rate in T20 cricket?",
+        "answer": "It is the percentage of deliveries from which a batting unit successfully scores at least one run, minimizing zero-scoring deliveries."
+      },
+      {
+        "question": "Why is running singles crucial during powerplay overs?",
+        "answer": "It continuously shifts the strike between right-hand and left-hand batters, unsettling bowling lengths and forcing fielders out of preferred catching positions."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
+    "id": "champions-trophy-2026-pitch-engineering-rawal-cadb649a",
+    "title": "Champions Trophy 2026 Pitch Engineering: Rawalpindi Adopts Clay-Silt Hybrid Drop-In Pitches for True Bounce and Reverse Swing",
+    "subdeck": "Chief curator reveals hybrid soil engineering protocols combining Nandipur clay with alluvial silt to prevent surface crumbling while preserving late afternoon reverse swing.",
+    "category": "Pitch Analytics",
+    "badge": "PITCH CURATION",
+    "stat_number": "62% CLAY",
+    "stat_label": "SOIL DENSITY RATIO",
+    "image": "assets/posts/champions-trophy-2026-pitch-engineering-rawal-cadb649a_cover.jpg",
+    "cover_image": "assets/posts/champions-trophy-2026-pitch-engineering-rawal-cadb649a_cover.jpg",
+    "author": "Hamid Raza",
+    "author_role": "Chief Cricket Analyst & Biomechanics Lead",
+    "author_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop",
+    "date": "10 Oct 2026",
+    "read_time": "5 min read",
+    "featured": false,
+    "body": [
+      "In preparation for the ICC Champions Trophy 2026, groundsmen at the Rawalpindi Cricket Stadium have concluded comprehensive soil reconstruction, adopting a precision clay-silt hybrid formula designed to deliver balanced pace, carry, and sustained reverse swing.",
+      "Historically known for flat, high-scoring batting conditions, the Rawalpindi track has been re-engineered with 62% Nandipur clay density reinforced with fibrous root binders, ensuring the surface retains compaction under heavy roller pressure without deteriorating prematurely.",
+      "Curator telemetry indicates that the enhanced surface density will reward 140+ KPH fast bowlers with steep bounce with the new ball, while maintaining natural grass abrasive qualities needed to activate reverse swing in the final twenty overs."
+    ],
+    "sections": [
+      {
+        "heading": "Combating Flat Surfaces with Compaction Engineering",
+        "content": "To prevent repetitive 350-plus run mismatches, curators calibrated soil smectite mineral ratios to ensure elastic bounce. When express pacers strike the deck at optimum release heights, the ball preserves 82% of its horizontal velocity off the surface."
+      },
+      {
+        "heading": "Night Moisture Control and Sub-Air Suction",
+        "content": "Like Gaddafi Stadium, Rawalpindi's square now incorporates continuous under-soil moisture sensors linked to automated sub-surface suction systems, preventing night dew from soaking through the soil bed and dampening seam movement."
+      }
+    ],
+    "takeaways": [
+      "Rawalpindi Cricket Stadium completes soil reconstruction using 62% Nandipur clay hybrid mix.",
+      "Eliminates featherbed flat tracks, restoring steep carry and true bounce for fast bowlers.",
+      "Sub-surface sensors regulate moisture levels to maintain ball abrasion for reverse swing."
+    ],
+    "faqs": [
+      {
+        "question": "How will the new Rawalpindi pitch behave during Champions Trophy matches?",
+        "answer": "It will provide true pace and bounce with the new white ball, reliable carry through to the wicketkeeper, and abrasive conditions favorable to reverse swing late in the innings."
+      },
+      {
+        "question": "What soil composition was utilized in the reconstruction?",
+        "answer": "Curators blended high-smectite Nandipur clay with fine alluvial silt to achieve high compaction density and crack resistance."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
+    "id": "pcb-establishes-national-spin-bowling-academy-a4f6fa48",
+    "title": "PCB Establishes National Spin Bowling Academy in Multan: High-Speed Hawk-Eye Vision Tracking and Grip Biomechanics",
+    "subdeck": "Pakistan Cricket Board launches dedicated center of excellence for leg-spin, off-spin, and mystery variations under high-speed biomechanical optical surveillance.",
+    "category": "Player Development",
+    "badge": "SPIN ACADEMY",
+    "stat_number": "2,400 RPM",
+    "stat_label": "TRACKED REVOLUTIONS",
+    "image": "assets/posts/pcb-establishes-national-spin-bowling-academy-a4f6fa48_cover.jpg",
+    "cover_image": "assets/posts/pcb-establishes-national-spin-bowling-academy-a4f6fa48_cover.jpg",
+    "author": "Dr. Arsalan Baig",
+    "author_role": "High-Performance Sports Science Director",
+    "author_avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=120&h=120&fit=crop",
+    "date": "10 Oct 2026",
+    "read_time": "5 min read",
+    "featured": true,
+    "body": [
+      "The Pakistan Cricket Board (PCB) has formally inaugurated the National Spin Bowling Center of Excellence at the Multan Cricket Stadium, outfitting the specialized academy with synchronized 500-FPS optical cameras and ball-tracking radar sensors.",
+      "The initiative is engineered to revive Pakistan's historical lineage of dominant match-winning spinners, focusing on developing finger-spin revolutions, arm-speed acceleration, and unreadable wrist-release deception among domestic first-class prospects.",
+      "High-performance analysts will leverage the biomechanical laboratory to calibrate bowling actions, identify illegal elbow flexion early in player pathways, and monitor revolutions per minute (RPM) variations across red-ball and white-ball formats."
+    ],
+    "sections": [
+      {
+        "heading": "Biomechanical Release Metrics and Optical Analysis",
+        "content": "By utilizing motion-capture sensor suits and synchronized high-speed cameras, biomechanics coaches can measure the exact angle of shoulder elevation, hip-to-trunk separation, and wrist torque at the millisecond of ball release. This provides empirical feedback on how subtle grip adjustments alter drift and trajectory."
+      },
+      {
+        "heading": "Tactical Mastery of Subcontinental Red-Soil Pitches",
+        "content": "The Multan facility features eight distinct practice pitches constructed with varied clay and silt ratios, simulating dry turners, abrasive reverse-swing surfaces, and bouncy subcontinental tracks to train spinners across changing match conditions."
+      }
+    ],
+    "takeaways": [
+      "PCB inaugurates high-tech spin academy at Multan Stadium with 500-FPS vision tracking.",
+      "Measures bowling release angles, revolutions per minute (RPM), and trajectory drift.",
+      "Provides specialized clay-silt practice strips to develop versatile match-winning spinners."
+    ],
+    "faqs": [
+      {
+        "question": "What technologies are integrated into the PCB Multan Spin Academy?",
+        "answer": "The facility features high-speed 500-FPS cameras, Hawk-Eye ball-tracking radar, wearable biomechanics sensors, and specialized multi-clay pitch strips."
+      },
+      {
+        "question": "Which player categories will train at the academy?",
+        "answer": "National team spinners, emerging domestic first-class talent, and Under-19 developmental prospects across all forms of spin bowling."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
     "id": "the-tactical-shift-from-anchor-batting-to-hig-7863",
     "category": "Match Tactics",
     "badge": "STRIKE-RATE ANALYTICS",
@@ -104,7 +251,7 @@
     "date": "10 Oct 2026",
     "date_iso": "2026-10-10",
     "read_time": "5 min read",
-    "featured": true,
+    "featured": false,
     "body": [
       "An expert venue inspection contingent from the International Cricket Council (ICC) has concluded comprehensive assessments of Gaddafi Stadium Lahore, National Stadium Karachi, and Rawalpindi Cricket Stadium, awarding full operational clearance for the ICC Champions Trophy.",
       "The multi-billion-rupee renovation program, executed under accelerated construction timelines by the PCB, features reconstructed tiered grandstands, unobstructed spectator sightlines, digital hospitality lounges, and advanced vacuum-assisted subterranean drainage systems.",
