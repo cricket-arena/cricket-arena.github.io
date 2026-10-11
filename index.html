@@ -8,6 +8,8 @@
   <meta name="theme-color" content="#0B3C26" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <link rel="canonical" href="https://cricket-arena.github.io/" />
+  <link rel="next" href="https://cricket-arena.github.io/page/2/" />
+
 
   <!-- Google Search Console Ownership Verification -->
   <meta name="google-site-verification" content="google-site-verification-pending-setup" />
@@ -47,6 +49,78 @@
   </noscript>
 
   <link rel="stylesheet" href="styles.css?v=2.0" />
+
+  <style>
+    /* Pagination Navigation Styles */
+    .pagination-container {
+      margin: 44px auto 56px auto;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+    }
+    .pagination-meta {
+      font-size: 0.9rem;
+      color: var(--text-muted, #64748b);
+      font-weight: 500;
+    }
+    .pagination-list {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .page-item {
+      margin: 0;
+      list-style: none;
+    }
+    .page-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 40px;
+      height: 40px;
+      padding: 0 14px;
+      border-radius: var(--radius-md, 8px);
+      border: 1px solid var(--border-light, #e2e8f0);
+      background: var(--bg-card, #ffffff);
+      color: var(--text-primary, #0f172a);
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .page-link:hover:not(.disabled):not(.active) {
+      border-color: var(--accent-primary, #0F4C81);
+      color: var(--accent-primary, #0F4C81);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+    .page-link.active {
+      background: var(--accent-primary, #0F4C81) !important;
+      color: #ffffff !important;
+      border-color: var(--accent-primary, #0F4C81) !important;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+      cursor: default;
+    }
+    .page-link.disabled {
+      opacity: 0.4;
+      pointer-events: none;
+      cursor: not-allowed;
+    }
+    .page-archive-header {
+      padding: 44px 0 24px;
+      text-align: center;
+      border-bottom: 1px solid var(--border-light, #e2e8f0);
+      margin-bottom: 36px;
+    }
+  </style>
 
   <!-- Structured Data Schema.org (Knowledge Graph & AI Engine Index) -->
   <script type="application/ld+json">
@@ -400,280 +474,18 @@
         <span class="meta-date">08 Oct 2026</span>
       </div>
     </a>
-
-    <a href="posts/pakistan-squad-restructuring-for-sri-lanka-t2-8168/" class="editorial-card">
-      <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="assets/posts/pakistan-squad-restructuring-for-sri-lanka-t2-8168_cover.jpg" alt="Pakistan Squad Restructuring for Sri Lanka T20Is: Sahibzada Farhan&#039;s Tactical Powerplay Blueprint" width="600" height="338" loading="lazy" decoding="async" />
-        <span class="media-badge">SQUAD RESTRUCTURING 🏏</span>
-      </div>
-      <div class="card-category-tag">Match Tactics</div>
-      <h3 class="editorial-card-title" >Pakistan Squad Restructuring for Sri Lanka T20Is: Sahibzada Farhan&#039;s Tactical Powerplay Blueprint</h3>
-      <p class="editorial-card-excerpt" >PCB selectors signal an aggressive transition towards modern strike-rate optimization, granting new leadership responsibilities and pace flexibility.</p>
-      <div class="author-meta-row">
-        <img class="author-avatar" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&h=120&fit=crop" alt="Ali Sher" width="24" height="24" loading="lazy" decoding="async" />
-        <span class="author-name">Ali Sher</span>
-        <span class="meta-separator">•</span>
-        <span class="meta-date">08 Oct 2026</span>
-      </div>
-    </a>
-
-    <a href="posts/naseem-shah-wrist-seam-biomechanical-breakdown/" class="editorial-card">
-      <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="assets/posts/naseem-shah-wrist-seam-biomechanical-breakdown_cover.jpg" alt="The 155 KPH Radar: High-Speed Biomechanical Analysis of Naseem Shah&#039;s Wrist Seam" width="600" height="338" loading="lazy" decoding="async" />
-        <span class="media-badge">SPEED BIOMECHANICS ⚡</span>
-      </div>
-      <div class="card-category-tag">Tactics &amp; Speed</div>
-      <h3 class="editorial-card-title" >The 155 KPH Radar: High-Speed Biomechanical Analysis of Naseem Shah&#039;s Wrist Seam</h3>
-      <p class="editorial-card-excerpt" >High-speed 1000fps sensor capture reveals how Naseem Shah&#039;s vertical wrist angle and kinetic chain generate devastating late outswing at 145+ kph.</p>
-      <div class="author-meta-row">
-        <img class="author-avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop" alt="Ali Sher" width="24" height="24" loading="lazy" decoding="async" />
-        <span class="author-name">Ali Sher</span>
-        <span class="meta-separator">•</span>
-        <span class="meta-date">07 Oct 2026</span>
-      </div>
-    </a>
-
-    <a href="posts/champions-trophy-gaddafi-stadium-pitch-tactics/" class="editorial-card">
-      <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="assets/posts/champions-trophy-gaddafi-stadium-pitch-tactics_cover.jpg" alt="Champions Trophy 2025 Gaddafi Stadium Blueprint: Dew Factor, Pitch Clay &amp; High-Scoring Matrix" width="600" height="338" loading="lazy" decoding="async" />
-        <span class="media-badge">VENUE INTEL 🏟️</span>
-      </div>
-      <div class="card-category-tag">Tournament Dossier</div>
-      <h3 class="editorial-card-title" >Champions Trophy 2025 Gaddafi Stadium Blueprint: Dew Factor, Pitch Clay &amp; High-Scoring Matrix</h3>
-      <p class="editorial-card-excerpt" >Tactical reconnaissance on Lahore&#039;s reconstructed flagship arena: analyzing imported Nandipur clay compaction, boundary dimensions, and night dew management.</p>
-      <div class="author-meta-row">
-        <img class="author-avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop" alt="Hamid Raza" width="24" height="24" loading="lazy" decoding="async" />
-        <span class="author-name">Hamid Raza</span>
-        <span class="meta-separator">•</span>
-        <span class="meta-date">07 Oct 2026</span>
-      </div>
-    </a>
-
-    <a href="posts/pakistan-middle-overs-wrist-spin-analytics-blueprint/" class="editorial-card">
-      <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="assets/posts/pakistan-middle-overs-wrist-spin-analytics-blueprint_cover.jpg" alt="The Middle-Overs Spin Conundrum: How Pakistan Rebuilt Its Wrist-Spin Analytics Engine" width="600" height="338" loading="lazy" decoding="async" />
-        <span class="media-badge">DATA INTELLIGENCE 📊</span>
-      </div>
-      <div class="card-category-tag">Analytics</div>
-      <h3 class="editorial-card-title" >The Middle-Overs Spin Conundrum: How Pakistan Rebuilt Its Wrist-Spin Analytics Engine</h3>
-      <p class="editorial-card-excerpt" >Analyzing dot-ball metrics, release point trajectory, and match-up algorithms between overs 11 and 40 to choke opposition run rates in one-day cricket.</p>
-      <div class="author-meta-row">
-        <img class="author-avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop" alt="Ali Sher" width="24" height="24" loading="lazy" decoding="async" />
-        <span class="author-name">Ali Sher</span>
-        <span class="meta-separator">•</span>
-        <span class="meta-date">07 Oct 2026</span>
-      </div>
-    </a>
-
-    <a href="posts/babar-azam-back-foot-pivot-pace-analysis/" class="editorial-card">
-      <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="assets/posts/babar-azam-back-foot-pivot-pace-analysis_cover.jpg" alt="Babar Azam vs High Pace: The Sub-0.2 Second Back-Foot Pivot Against Short-Pitch Bowling" width="600" height="338" loading="lazy" decoding="async" />
-        <span class="media-badge">MASTERCLASS 🏏</span>
-      </div>
-      <div class="card-category-tag">Player Focus</div>
-      <h3 class="editorial-card-title" >Babar Azam vs High Pace: The Sub-0.2 Second Back-Foot Pivot Against Short-Pitch Bowling</h3>
-      <p class="editorial-card-excerpt" >Detailed video frame analysis dissects Babar Azam&#039;s balance, weight transfer, and back-foot punch through cover against 145+ kph express bowling.</p>
-      <div class="author-meta-row">
-        <img class="author-avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop" alt="Hamid Raza" width="24" height="24" loading="lazy" decoding="async" />
-        <span class="author-name">Hamid Raza</span>
-        <span class="meta-separator">•</span>
-        <span class="meta-date">07 Oct 2026</span>
-      </div>
-    </a>
-
-    <a href="posts/wide-yorker-evolution-pakistan-death-bowling-mastery/" class="editorial-card">
-      <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="assets/posts/wide-yorker-evolution-pakistan-death-bowling-mastery_cover.jpg" alt="Wide-Yorker Execution in the Final 3 Overs: How Data Transformed Pakistan&#039;s Death Bowling" width="600" height="338" loading="lazy" decoding="async" />
-        <span class="media-badge">DEATH OVERS 🎯</span>
-      </div>
-      <div class="card-category-tag">Match Analysis</div>
-      <h3 class="editorial-card-title" >Wide-Yorker Execution in the Final 3 Overs: How Data Transformed Pakistan&#039;s Death Bowling</h3>
-      <p class="editorial-card-excerpt" >Statistical breakdown of field manipulation and bowling trajectory aiming 4 inches inside the tramline, denying leg-side leverage to international power hitters.</p>
-      <div class="author-meta-row">
-        <img class="author-avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop" alt="Ali Sher" width="24" height="24" loading="lazy" decoding="async" />
-        <span class="author-name">Ali Sher</span>
-        <span class="meta-separator">•</span>
-        <span class="meta-date">07 Oct 2026</span>
-      </div>
-    </a>
-
-    <a href="posts/pakistan-pace-battery-tactics-urdu/" class="editorial-card">
-      <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="assets/posts/pakistan-pace-battery-tactics-urdu_cover.jpg" alt="شاہین، نسیم اور حارث: پاکستان کی 150 کلومیٹر پیس بیٹری کا نیا ٹیکٹیکل پلان اور بائیو مکینکس" width="600" height="338" loading="lazy" decoding="async" />
-        <span class="media-badge">خصوصی تجزیہ ⚡</span>
-      </div>
-      <div class="card-category-tag">اردو اینالیٹکس</div>
-      <h3 class="editorial-card-title urdu-title" dir="rtl">شاہین، نسیم اور حارث: پاکستان کی 150 کلومیٹر پیس بیٹری کا نیا ٹیکٹیکل پلان اور بائیو مکینکس</h3>
-      <p class="editorial-card-excerpt urdu-subdeck" dir="rtl">آسٹریلیا اور انگلینڈ کے خلاف ڈیتھ اوورز میں ریورس سوئنگ، رسٹ پوزیشن اور اسپیڈ ویری ایشن کا جامع سائنسی جائزہ۔</p>
-      <div class="author-meta-row">
-        <img class="author-avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop" alt="حمید رضا" width="24" height="24" loading="lazy" decoding="async" />
-        <span class="author-name">حمید رضا</span>
-        <span class="meta-separator">•</span>
-        <span class="meta-date">04 Oct 2026</span>
-      </div>
-    </a>
-
-    <a href="posts/babar-azam-technique-analysis-urdu/" class="editorial-card">
-      <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="assets/posts/babar-azam-technique-analysis-urdu_cover.jpg" alt="بابر اعظم کی تکنیک اور کور ڈرائیو کا تفصیلی تجزیہ: اعداد و شمار کیا کہتے ہیں؟" width="600" height="338" loading="lazy" decoding="async" />
-        <span class="media-badge">تکنیکی مہارت 🏏</span>
-      </div>
-      <div class="card-category-tag">اردو اینالیٹکس</div>
-      <h3 class="editorial-card-title urdu-title" dir="rtl">بابر اعظم کی تکنیک اور کور ڈرائیو کا تفصیلی تجزیہ: اعداد و شمار کیا کہتے ہیں؟</h3>
-      <p class="editorial-card-excerpt urdu-subdeck" dir="rtl">فرنٹ فٹ موومنٹ، ہائی ایلبو اینگل اور فاسٹ بولرز کے خلاف 89 فیصد کنٹرول ریٹ کے پیچھے کی سائنسی حقیقت۔</p>
-      <div class="author-meta-row">
-        <img class="author-avatar" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="فرحان صدیقی" width="24" height="24" loading="lazy" decoding="async" />
-        <span class="author-name">فرحان صدیقی</span>
-        <span class="meta-separator">•</span>
-        <span class="meta-date">04 Oct 2026</span>
-      </div>
-    </a>
-
-    <a href="posts/champions-trophy-pakistan-venues-urdu/" class="editorial-card">
-      <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="assets/posts/champions-trophy-pakistan-venues-urdu_cover.jpg" alt="آئی سی سی چیمپئنز ٹرافی: لاہور، کراچی اور راولپنڈی اسٹیڈیمز کی اپ گریڈیشن اور پچ تجزیہ" width="600" height="338" loading="lazy" decoding="async" />
-        <span class="media-badge">اسٹیڈیم اپ ڈیٹ 🏟️</span>
-      </div>
-      <div class="card-category-tag">اردو اینالیٹکس</div>
-      <h3 class="editorial-card-title urdu-title" dir="rtl">آئی سی سی چیمپئنز ٹرافی: لاہور، کراچی اور راولپنڈی اسٹیڈیمز کی اپ گریڈیشن اور پچ تجزیہ</h3>
-      <p class="editorial-card-excerpt urdu-subdeck" dir="rtl">قذافی اسٹیڈیم کا نیا واٹر ڈرینج سسٹم، راولپنڈی کی تیز باؤنسی وکٹیں اور مڈل اوورز میں اسپنرز کا فیصلہ کن کردار۔</p>
-      <div class="author-meta-row">
-        <img class="author-avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop" alt="زینب عباس" width="24" height="24" loading="lazy" decoding="async" />
-        <span class="author-name">زینب عباس</span>
-        <span class="meta-separator">•</span>
-        <span class="meta-date">03 Oct 2026</span>
-      </div>
-    </a>
-
-    <a href="posts/reverse-swing-death-bowling-urdu/" class="editorial-card">
-      <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="assets/posts/reverse-swing-death-bowling-urdu_cover.jpg" alt="ٹی 20 کرکٹ میں ریورس سوئنگ اور وائیڈ یارکرز کا جادو: پاکستانی بولرز کا تاریخی ہتھیار" width="600" height="338" loading="lazy" decoding="async" />
-        <span class="media-badge">بولنگ اسرار 🌪️</span>
-      </div>
-      <div class="card-category-tag">اردو اینالیٹکس</div>
-      <h3 class="editorial-card-title urdu-title" dir="rtl">ٹی 20 کرکٹ میں ریورس سوئنگ اور وائیڈ یارکرز کا جادو: پاکستانی بولرز کا تاریخی ہتھیار</h3>
-      <p class="editorial-card-excerpt urdu-subdeck" dir="rtl">سرفراز نواز اور وسیم اکرم کے روایتی ہنر سے لے کر جدید دور میں وائیڈ یارکرز کے استعمال تک کا تاریخی سفر۔</p>
-      <div class="author-meta-row">
-        <img class="author-avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop" alt="حمید رضا" width="24" height="24" loading="lazy" decoding="async" />
-        <span class="author-name">حمید رضا</span>
-        <span class="meta-separator">•</span>
-        <span class="meta-date">03 Oct 2026</span>
-      </div>
-    </a>
-
-    <a href="posts/psl-talent-analytics-draft-urdu/" class="editorial-card">
-      <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="assets/posts/psl-talent-analytics-draft-urdu_cover.jpg" alt="پاکستان سپر لیگ (PSL) پلیئر ڈرافٹ، ٹیپ بال ٹیلنٹ اور ڈیٹا اینالیٹکس کا انقلاب" width="600" height="338" loading="lazy" decoding="async" />
-        <span class="media-badge">پی ایس ایل ٹیلنٹ 🌟</span>
-      </div>
-      <div class="card-category-tag">اردو اینالیٹکس</div>
-      <h3 class="editorial-card-title urdu-title" dir="rtl">پاکستان سپر لیگ (PSL) پلیئر ڈرافٹ، ٹیپ بال ٹیلنٹ اور ڈیٹا اینالیٹکس کا انقلاب</h3>
-      <p class="editorial-card-excerpt urdu-subdeck" dir="rtl">پاکستان کی گلی محلوں سے 150 کلومیٹر فی گھنٹہ کی رفتار سے گیندیں کروانے والے نوجوانوں کی تلاش اور فرنچائزز کی اسمارٹ ہائرنگ۔</p>
-      <div class="author-meta-row">
-        <img class="author-avatar" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="فرحان صدیقی" width="24" height="24" loading="lazy" decoding="async" />
-        <span class="author-name">فرحان صدیقی</span>
-        <span class="meta-separator">•</span>
-        <span class="meta-date">02 Oct 2026</span>
-      </div>
-    </a>
-
-    <a href="posts/shaheen-mcg-fiery-spell/" class="editorial-card">
-      <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="assets/posts/shaheen-mcg-fiery-spell_cover.jpg" alt="Shaheen Shah Afridi’s MCG Masterclass: How Left-Arm Seam Dismantled Australia" width="600" height="338" loading="lazy" decoding="async" />
-        <span class="media-badge">MATCH WINNER 🏆</span>
-      </div>
-      <div class="card-category-tag">Match Analysis</div>
-      <h3 class="editorial-card-title" >Shaheen Shah Afridi’s MCG Masterclass: How Left-Arm Seam Dismantled Australia</h3>
-      <p class="editorial-card-excerpt" >Bowling with ferocious late swing at 148 kph, Shaheen delivered a death-overs clinic that left Australia’s top order stunned in Melbourne.</p>
-      <div class="author-meta-row">
-        <img class="author-avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop" alt="Hamid Raza" width="24" height="24" loading="lazy" decoding="async" />
-        <span class="author-name">Hamid Raza</span>
-        <span class="meta-separator">•</span>
-        <span class="meta-date">03 Oct 2026</span>
-      </div>
-    </a>
-
-    <a href="posts/babar-azam-technique-breakdown/" class="editorial-card">
-      <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="assets/posts/babar-azam-technique-breakdown_cover.jpg" alt="Inside Babar Azam’s Technique: The Cover Drive That Defies Modern Field Placements" width="600" height="338" loading="lazy" decoding="async" />
-        <span class="media-badge">COVER DRIVE 🎯</span>
-      </div>
-      <div class="card-category-tag">Player Focus</div>
-      <h3 class="editorial-card-title" >Inside Babar Azam’s Technique: The Cover Drive That Defies Modern Field Placements</h3>
-      <p class="editorial-card-excerpt" >A forensic biomechanical breakdown of Pakistan’s anchor, head balance through the crease, and why pace bowlers struggle to pin him down.</p>
-      <div class="author-meta-row">
-        <img class="author-avatar" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="Farhan Siddiqui" width="24" height="24" loading="lazy" decoding="async" />
-        <span class="author-name">Farhan Siddiqui</span>
-        <span class="meta-separator">•</span>
-        <span class="meta-date">02 Oct 2026</span>
-      </div>
-    </a>
-
-    <a href="posts/pace-battery-revolution/" class="editorial-card">
-      <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="assets/posts/pace-battery-revolution_cover.jpg" alt="The 150+ KPH Club: Why Pakistan’s Fast Bowlers Remain World Cricket’s Most Lethal Asset" width="600" height="338" loading="lazy" decoding="async" />
-        <span class="media-badge">SPEED RADAR ⚡</span>
-      </div>
-      <div class="card-category-tag">Tactics &amp; Speed</div>
-      <h3 class="editorial-card-title" >The 150+ KPH Club: Why Pakistan’s Fast Bowlers Remain World Cricket’s Most Lethal Asset</h3>
-      <p class="editorial-card-excerpt" >From Rawalpindi tape-ball tournaments to modern biometric academies, the science of raw pace in Pakistan cricket.</p>
-      <div class="author-meta-row">
-        <img class="author-avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop" alt="Hamid Raza" width="24" height="24" loading="lazy" decoding="async" />
-        <span class="author-name">Hamid Raza</span>
-        <span class="meta-separator">•</span>
-        <span class="meta-date">01 Oct 2026</span>
-      </div>
-    </a>
-
-    <a href="posts/champions-trophy-tactical-blueprint/" class="editorial-card">
-      <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="assets/posts/champions-trophy-tactical-blueprint_cover.jpg" alt="The Champions Trophy Blueprint: Middle-Overs Spin Choke &amp; Death Execution" width="600" height="338" loading="lazy" decoding="async" />
-        <span class="media-badge">TACTICS 📊</span>
-      </div>
-      <div class="card-category-tag">Tournament Dossier</div>
-      <h3 class="editorial-card-title" >The Champions Trophy Blueprint: Middle-Overs Spin Choke &amp; Death Execution</h3>
-      <p class="editorial-card-excerpt" >Data modeling suggests teams maintaining under 4.8 RPO between overs 11 and 40 hold an 82% win rate on subcontinental pitches.</p>
-      <div class="author-meta-row">
-        <img class="author-avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop" alt="Zainab Abbas" width="24" height="24" loading="lazy" decoding="async" />
-        <span class="author-name">Zainab Abbas</span>
-        <span class="meta-separator">•</span>
-        <span class="meta-date">29 Sep 2026</span>
-      </div>
-    </a>
-
-    <a href="posts/death-bowling-yorker-evolution/" class="editorial-card">
-      <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="assets/posts/death-bowling-yorker-evolution_cover.jpg" alt="The Death-Overs Anatomy: Why the Wide Yorker Is Replacing the Blockhole Yorker" width="600" height="338" loading="lazy" decoding="async" />
-        <span class="media-badge">YORKER SCIENCE 🎯</span>
-      </div>
-      <div class="card-category-tag">Analytics</div>
-      <h3 class="editorial-card-title" >The Death-Overs Anatomy: Why the Wide Yorker Is Replacing the Blockhole Yorker</h3>
-      <p class="editorial-card-excerpt" >Tracking boundary percentages against modern power hitters and why lateral angles matter more than pure straight pace.</p>
-      <div class="author-meta-row">
-        <img class="author-avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop" alt="Hamid Raza" width="24" height="24" loading="lazy" decoding="async" />
-        <span class="author-name">Hamid Raza</span>
-        <span class="meta-separator">•</span>
-        <span class="meta-date">27 Sep 2026</span>
-      </div>
-    </a>
-
-    <a href="posts/gaddafi-stadium-modernization/" class="editorial-card">
-      <div class="editorial-card-thumb">
-        <img class="editorial-card-img" src="assets/posts/gaddafi-stadium-modernization_cover.jpg" alt="The New Gaddafi Stadium: How LED Ring Floods &amp; Pitch Relay Transformed Lahore" width="600" height="338" loading="lazy" decoding="async" />
-        <span class="media-badge">STADIUM REPORT 🏟️</span>
-      </div>
-      <div class="card-category-tag">Infrastructure</div>
-      <h3 class="editorial-card-title" >The New Gaddafi Stadium: How LED Ring Floods &amp; Pitch Relay Transformed Lahore</h3>
-      <p class="editorial-card-excerpt" >A world-class modernization with upgraded turf drainage and drop-in soil technology ready for international marquee clashes.</p>
-      <div class="author-meta-row">
-        <img class="author-avatar" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="Farhan Siddiqui" width="24" height="24" loading="lazy" decoding="async" />
-        <span class="author-name">Farhan Siddiqui</span>
-        <span class="meta-separator">•</span>
-        <span class="meta-date">24 Sep 2026</span>
-      </div>
-    </a>
       </div>
     </section>
+
+    <!-- Pagination Navigation -->
+    <nav id="pagination-container" class="pagination-container" aria-label="Stories pagination">
+
+    <div class="pagination-meta">Showing stories 1–12 of 29</div>
+    <ul class="pagination-list">
+      <li class="page-item"><span class="page-link disabled">« Prev</span></li> <li class="page-item"><span class="page-link active" aria-current="page">1</span></li> <li class="page-item"><a class="page-link" href="page/2/">2</a></li> <li class="page-item"><a class="page-link" href="page/3/">3</a></li> <li class="page-item"><a class="page-link" href="page/2/" aria-label="Next page">Next »</a></li>
+    </ul>
+    
+    </nav>
 
     <!-- Newsletter Callout Banner -->
     <section id="newsletter" class="newsletter-banner">
