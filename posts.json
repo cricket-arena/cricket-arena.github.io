@@ -1,5 +1,101 @@
 [
   {
+    "id": "high-altitude-conditioning-abbottabad-biometrics-bowler-workload",
+    "category": "Biomechanics & Fitness",
+    "badge": "WORKLOAD LAB 🩺",
+    "title": "High-Altitude Conditioning at Abbottabad: Red Blood Cell Biometrics and Fast-Bowler Workload Density Across 5-Day Tests",
+    "subdeck": "Sports medicine data illustrates how pre-season hypobaric training at 4,120 feet enhances aerobic recovery, reduces spinal shear forces, and sustains 90mph spell intensity in decisive final sessions.",
+    "stat_number": "4,120 FT",
+    "stat_label": "TRAINING ALTITUDE",
+    "author": "Dr. Arsalan Baig",
+    "author_role": "Senior Sports Biomechanics Director",
+    "author_avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&h=120&fit=crop",
+    "date": "12 Oct 2026",
+    "read_time": "4 min read",
+    "image_url": "assets/posts/high-altitude-conditioning-abbottabad-biometrics-bowler-workload_cover.jpg",
+    "featured": false,
+    "body": [
+      "The gruelling physical demands placed on modern express fast bowlers have turned high-performance sports science into cricket's most vital competitive differentiator.",
+      "At the PCB High Performance Centre in Abbottabad, situated at an altitude of 4,120 feet above sea level, conditioning coaches have instituted hypobaric endurance protocols tailored specifically for multi-day bowling workloads.",
+      "Biometric monitoring tracks maximal oxygen uptake (VO2 max), cardiac recovery intervals between overs, and lumbo-sacral ground reaction forces to eliminate chronic lumbar stress fractures while preserving express velocity."
+    ],
+    "sections": [
+      {
+        "heading": "Erythropoietin Response and Inter-Spell Recovery",
+        "content": "Three weeks of structured hill running and altitude interval sprints stimulate natural production of red blood cells, elevating hemoglobin density. In fourth-innings conditions, bowlers trained at altitude demonstrate a 28% faster heart-rate recovery during the 4-minute rest interval between bowling spells."
+      },
+      {
+        "heading": "Force Plates and Spinal Shear Mitigation",
+        "content": "Tri-axial force plates installed at the crease measure front-foot impact forces exceeding 8 to 9 times body weight. High-speed 3D optical cameras help bowling coaches refine back-foot plant angles to minimize rotational torque on lower vertebral discs."
+      }
+    ],
+    "takeaways": [
+      "Abbottabad high-altitude conditioning enhances aerobic capacity and accelerates inter-spell recovery.",
+      "Red blood cell adaptation helps fast bowlers maintain 90mph velocity deep into day-five Test matches.",
+      "Biomechanical force plates optimize front-foot landing mechanics to prevent lumbar stress fractures."
+    ],
+    "faqs": [
+      {
+        "question": "How much ground force does a fast bowler absorb upon front-foot landing?",
+        "answer": "Elite fast bowlers typically absorb between 8 to 9 times their body weight in ground reaction force at delivery stride impact."
+      },
+      {
+        "question": "How long do the physiological benefits of high-altitude conditioning persist?",
+        "answer": "Enhanced oxygen-carrying capacity and mitochondrial density typically provide measurable endurance benefits for 6 to 8 weeks following altitude camp."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
+    "id": "physics-reverse-swing-rawalpindi-aerodynamic-seam-scuffing",
+    "category": "Fast Bowling Lab & Telemetry",
+    "badge": "AERODYNAMICS LAB ⚡",
+    "title": "The Physics of Reverse Swing in Rawalpindi: Aerodynamic Seam Scuffing, Boundary Layer Separation, and 145kph Inswing",
+    "subdeck": "High-speed telemetry reveals how dry subcontinent clay, contrast differential polishing, and critical airflow velocity cause late devious deviation through the air.",
+    "stat_number": "145.4 KPH",
+    "stat_label": "INSWING VELOCITY",
+    "author": "Ali Sher",
+    "author_role": "High-Performance Bowling Telemetry Specialist",
+    "author_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop",
+    "date": "12 Oct 2026",
+    "read_time": "5 min read",
+    "image_url": "assets/posts/physics-reverse-swing-rawalpindi-aerodynamic-seam-scuffing_cover.jpg",
+    "featured": true,
+    "body": [
+      "Few tactical phenomenons in world sport are as scientifically mesmerizing as the art of late reverse swing on the abrasive, sun-baked wickets of Rawalpindi and Karachi.",
+      "While conventional swing relies on a pristine leather seam creating turbulence on one hemisphere of a new ball, reverse swing operates under fluid mechanics principles where aerodynamic boundary layer separation flips completely at high airspeeds.",
+      "Radar telemetry captured during competitive 5-day Test matches confirms that when a cricket ball reaches a critical velocity threshold above 138 kph, the roughened side induces premature boundary layer transition, sucking the ball sharply toward the polished side."
+    ],
+    "sections": [
+      {
+        "heading": "The Turbulent Boundary Layer Inversion",
+        "content": "At sub-135 kph speeds, laminar flow dominates the smooth hemisphere. However, past the critical Reynolds number (~1.2 x 10^5), airflow over the rough hemisphere becomes intensely turbulent, delaying separation and generating asymmetrical pressure differentials that swing late into right-handed batters."
+      },
+      {
+        "heading": "Field Maintenance and Ball-Shine Protocol",
+        "content": "Reverse swing is a team craft. Successful pace units dedicate specialized fielders to preserve one pristine high-gloss hemisphere using dry cotton trousers while allowing natural abrasive pitch friction to scar the opposite leather flank without artificial tampering."
+      }
+    ],
+    "takeaways": [
+      "Reverse swing occurs when critical velocity (>138 kph) inverts aerodynamic boundary layer separation.",
+      "The ball deviates decisively toward the shiny, polished hemisphere in late flight trajectory.",
+      "Subcontinent abrasive clay and disciplined one-sided ball maintenance create the ideal physical conditions."
+    ],
+    "faqs": [
+      {
+        "question": "Why does reverse swing occur later in the ball's trajectory than conventional swing?",
+        "answer": "Because it requires sustained high velocity throughout the flight path. As the ball decelerates slightly near the pitch, the pressure differential acts decisively just 3 to 4 meters before the batting crease."
+      },
+      {
+        "question": "Can medium-pace bowlers achieve reverse swing?",
+        "answer": "Only with an angled seam presentation, but express fast bowlers (142+ kph) generate significantly more violent late deviation due to higher Reynolds numbers."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
     "id": "the-150-kph-load-index-fast-bowling-workload-management",
     "category": "Sports Science & Pace Analytics",
     "badge": "HIGH-SPEED TELEMETRY",
@@ -61,7 +157,7 @@
     "date": "11 Oct 2026",
     "read_time": "5 min read",
     "image_url": "assets/posts/finger-spin-telemetry-seam-shift-drift-middle-overs_cover.jpg",
-    "featured": true,
+    "featured": false,
     "body": [
       "Modern cricket analytics has fundamentally transitioned beyond rudimentary turn measurements, shifting focus toward high-frequency aerodynamic drift generated in the 0.4 seconds prior to the ball striking the pitch surface.",
       "Optical telemetry tracking from international venues indicates that elite finger spinners capable of imparting over 2,400 revolutions per minute with a tilted seam axis create asymmetric boundary layer air separation, forcing the ball to drift 4 to 7 inches sideways in flight.",
