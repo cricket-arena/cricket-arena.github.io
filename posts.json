@@ -1,5 +1,109 @@
 [
   {
+    "id": "abdul-qadir-leg-spin-legacy-pakistan-cricket",
+    "category": "Player Focus",
+    "badge": "SPIN LEGACY",
+    "title": "Abdul Qadir and the Revival of Leg-Spin: How Pakistan's Magician Changed Cricket",
+    "subdeck": "At a time when wrist spin was close to extinction, Qadir's bounding run-up, googly and flipper inspired a generation that included Shane Warne.",
+    "stat_number": "236",
+    "stat_label": "TEST WICKETS",
+    "author": "Dr. Arsalan Baig",
+    "author_role": "Senior Sports Biomechanics Director",
+    "author_avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&h=120&fit=crop",
+    "date": "13 Oct 2026",
+    "read_time": "5 min read",
+    "image_url": "assets/posts/abdul-qadir-leg-spin-legacy-pakistan-cricket_cover.jpg",
+    "featured": false,
+    "body": [
+      "In the 1970s and 1980s, international cricket belonged to fast bowlers. Leg-spin was widely seen as too expensive and unreliable for the modern game. Abdul Qadir, a wrist spinner from Lahore, proved that view wrong.",
+      "Across 67 Tests between 1977 and 1990 he took 236 wickets, and he added 132 more in 104 one-day internationals. His finest figures, 9 for 56 against England at Lahore in 1987, remain among the best innings returns by a Pakistani bowler.",
+      "Qadir's influence went far beyond numbers. Young spinners around the world copied his theatrical, skipping approach to the crease, and a young Shane Warne famously sought his advice early in his career."
+    ],
+    "sections": [
+      {
+        "heading": "A Complete Variety Pack",
+        "content": "Qadir bowled a big-turning leg-break, a well-hidden googly, a top-spinner that dipped and bounced, and a skidding flipper. Batters struggled to read which delivery was coming, and he used flight and changes of pace to set them up over several balls."
+      },
+      {
+        "heading": "The Mechanics Behind the Magic",
+        "content": "His rhythmic run-up generated momentum that he transferred through a strong front-leg brace and a fast wrist snap at release. That combination produced heavy revolutions on the ball, giving him drift in the air and sharp turn off the pitch even on surfaces offering little help."
+      },
+      {
+        "heading": "Legacy in Pakistan Cricket",
+        "content": "Qadir passed away in September 2019, but his influence lives on through the leg-spinners who followed, from Mushtaq Ahmed to Shadab Khan and beyond. Pakistan has continued to value wrist spin as an attacking weapon rather than a defensive option."
+      }
+    ],
+    "takeaways": [
+      "Abdul Qadir took 236 wickets in 67 Tests and 132 in 104 ODIs.",
+      "His 9 for 56 against England at Lahore in 1987 is a Pakistan landmark.",
+      "He helped revive leg-spin worldwide and influenced Shane Warne."
+    ],
+    "faqs": [
+      {
+        "question": "What was Abdul Qadir's best bowling performance?",
+        "answer": "His 9 for 56 against England at Lahore in 1987, one of the finest innings figures in Test history by a spinner."
+      },
+      {
+        "question": "Did Abdul Qadir mentor Shane Warne?",
+        "answer": "Warne often spoke of meeting Qadir early in his career and learning from his variations and attacking mindset."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
+    "id": "dls-method-explained-rain-reduced-cricket-targets",
+    "category": "Match Tactics",
+    "badge": "DLS EXPLAINED",
+    "title": "The DLS Method Explained: How Rain-Reduced Cricket Targets Are Really Calculated",
+    "subdeck": "Why a team chasing 250 can suddenly need 198 from 35 overs, and how wickets in hand matter as much as overs remaining.",
+    "stat_number": "2 RESOURCES",
+    "stat_label": "OVERS AND WICKETS",
+    "author": "Ali Sher",
+    "author_role": "Cricket Analytics & Strategy Editor",
+    "author_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop",
+    "date": "13 Oct 2026",
+    "read_time": "6 min read",
+    "image_url": "assets/posts/dls-method-explained-rain-reduced-cricket-targets_cover.jpg",
+    "featured": true,
+    "body": [
+      "Few things in cricket cause more confusion than a revised target after rain. The Duckworth-Lewis-Stern method, used in international limited-overs cricket, exists to answer one question fairly: if a match is shortened, what target gives both teams an equal chance?",
+      "The method was devised by statisticians Frank Duckworth and Tony Lewis and first used in international cricket in 1997. After Professor Steven Stern updated the model for modern high-scoring cricket, the ICC renamed it Duckworth-Lewis-Stern in 2014.",
+      "Its core idea is that a batting side has two resources: overs remaining and wickets in hand. Lose either and your scoring potential drops. DLS converts every combination of the two into a percentage of resources still available."
+    ],
+    "sections": [
+      {
+        "heading": "Resources, Not Run Rates",
+        "content": "Simple run-rate targets punish or reward teams unfairly. A side 150 for 1 after 30 overs is in a far stronger position than one at 150 for 7, even though their run rates match. DLS captures this by valuing ten overs with nine wickets in hand much more highly than ten overs with two."
+      },
+      {
+        "heading": "How the Target Is Adjusted",
+        "content": "When overs are lost, the resources available to each side are compared. If the chasing side has fewer resources than the side that batted first, its target is scaled down in proportion. If the interruption hits the first innings and the chasing team ends up with more resources, the target can actually rise above the original score."
+      },
+      {
+        "heading": "Reading the Par Score",
+        "content": "During a chase broadcasters show a DLS par score, the score the chasing team needs at that moment to be ahead if play stops for good. Captains watch it closely when rain threatens, often taking risks to get ahead of par before the covers come on."
+      }
+    ],
+    "takeaways": [
+      "DLS treats overs remaining and wickets in hand as combined batting resources.",
+      "It was first used in 1997 and renamed Duckworth-Lewis-Stern by the ICC in 2014.",
+      "The par score tells a chasing side whether it would win if play ended now."
+    ],
+    "faqs": [
+      {
+        "question": "Why can a DLS target be higher than the first innings score?",
+        "answer": "If the first innings was cut short and the team batting second gets more total resources, the target is scaled up to reflect what the first team would likely have scored."
+      },
+      {
+        "question": "What is the minimum number of overs for a DLS result in ODIs?",
+        "answer": "In men's ODIs each side must normally face at least 20 overs for a result to stand, while T20 internationals require at least 5 overs per side."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
     "id": "high-altitude-conditioning-abbottabad-biometrics-bowler-workload",
     "category": "Biomechanics & Fitness",
     "badge": "WORKLOAD LAB 🩺",
@@ -61,7 +165,7 @@
     "date": "12 Oct 2026",
     "read_time": "5 min read",
     "image_url": "assets/posts/physics-reverse-swing-rawalpindi-aerodynamic-seam-scuffing_cover.jpg",
-    "featured": true,
+    "featured": false,
     "body": [
       "Few tactical phenomenons in world sport are as scientifically mesmerizing as the art of late reverse swing on the abrasive, sun-baked wickets of Rawalpindi and Karachi.",
       "While conventional swing relies on a pristine leather seam creating turbulence on one hemisphere of a new ball, reverse swing operates under fluid mechanics principles where aerodynamic boundary layer separation flips completely at high airspeeds.",
