@@ -1,5 +1,109 @@
 [
   {
+    "id": "dew-factor-cricket-subcontinent-pitch-analytics-toss-impact",
+    "category": "Match Tactics",
+    "badge": "PITCH ANALYTICS",
+    "title": "The Impact of the White-Ball Dew Factor on Subcontinent Pitches: Toss Bias, Grip Physics, and Defensive Field Sets",
+    "subdeck": "An analytical examination of nocturnal humidity in South Asian stadiums, how wet seams neuter spin revolutions, and why chasing has become the dominant strategy in night matches.",
+    "stat_number": "65%+",
+    "stat_label": "WIN RATE CHASING IN DEW",
+    "author": "Dr. Arsalan Baig",
+    "author_role": "Senior Sports Biomechanics Director",
+    "author_avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&h=120&fit=crop",
+    "date": "14 Oct 2026",
+    "read_time": "5 min read",
+    "image_url": "assets/posts/dew-factor-cricket-subcontinent-pitch-analytics-toss-impact_cover.jpg",
+    "featured": false,
+    "body": [
+      "In modern day-night cricket across South Asia—from Lahore and Rawalpindi to Mumbai and Colombo—few external environmental variables influence match outcomes as decisively as the evening dew factor.",
+      "As dusk falls and ambient temperatures drop below the atmospheric dew point, water vapor condenses across lush outfield grass. Once the cricket ball skids across the moisture-laden turf, it absorbs water, fundamentally changing the physical interaction between ball, seam, pitch, and fingers.",
+      "The result is a documented tactical imbalance that heavily skews match win probabilities in favor of the side batting second, compelling captains to routinely bowl first upon winning the toss."
+    ],
+    "sections": [
+      {
+        "heading": "The Physics of Loss of Seam Traction",
+        "content": "When a leather ball becomes saturated with surface water, bowlers lose tactile friction along their fingertips. Spin bowlers suffer immediate disruption: finger-spinners cannot grip the seam to generate revolutions per minute (RPMs), turning sharp turners into predictable straight-ball deliveries that slide on easily for boundary hitters."
+      },
+      {
+        "heading": "Pace Bowlers and Yorker Execution Failure",
+        "content": "Fast bowlers rely on split-second seam stability at release. A slick, wet ball slips prematurely through sweaty fingers, transforming attempted toe-crushing yorkers into floaty full-tosses that batters routinely dispatch over the ropes."
+      },
+      {
+        "heading": "Tactical Countermeasures and Wet-Ball Practice",
+        "content": "Modern fielding units deploy industrial anti-dew chemical sprays across outfields, maintain dry towel rotations among fielders, and deliberately dunk practice balls in buckets of water during training sessions to acclimatize bowlers to low-friction releases."
+      }
+    ],
+    "takeaways": [
+      "Nighttime dew drastically reduces finger friction, diminishing spin bowler revolutions.",
+      "Slick balls reduce fast bowling control, frequently causing errant full tosses.",
+      "Captains consistently elect to field first in subcontinent day-night matches to avoid defending wet balls."
+    ],
+    "faqs": [
+      {
+        "question": "What is anti-dew chemical spray used in cricket grounds?",
+        "answer": "Groundskeepers spray non-toxic surfactant chemicals (such as Aspa) across outfields hours before play to prevent dew moisture droplets from forming on grass blades."
+      },
+      {
+        "question": "Does dew speed up or slow down a cricket pitch?",
+        "answer": "Dew generally causes the pitch surface to skid, allowing the ball to come onto the bat smoothly without sticky two-paced bounce, aiding chasing batters."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
+    "id": "waqar-younis-in-dipping-yorker-reverse-swing-biomechanics",
+    "category": "Match Tactics",
+    "badge": "FAST BOWLING",
+    "title": "Waqar Younis and the Science of the In-Dipping Yorker: Biomechanics, Ball Scuffing, and Reverse Swing Trajectory",
+    "subdeck": "How the Bureau of Pace redefined fast bowling through round-arm release angles, aerodynamic reverse laminar flow, and deadly toe-crushing late trajectory.",
+    "stat_number": "373",
+    "stat_label": "TEST WICKETS",
+    "author": "Ali Sher",
+    "author_role": "Cricket Analytics & Fast Bowling Specialist",
+    "author_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop",
+    "date": "14 Oct 2026",
+    "read_time": "6 min read",
+    "image_url": "assets/posts/waqar-younis-in-dipping-yorker-reverse-swing-biomechanics_cover.jpg",
+    "featured": true,
+    "body": [
+      "In the late 1980s and 1990s, Pakistani fast bowling duo Wasim Akram and Waqar Younis shattered conventional cricket wisdom regarding when and how a cricket ball swings.",
+      "Until their emergence, orthodox swing bowling was seen as the exclusive preserve of brand-new balls under overcast English skies. Waqar and Wasim proved that an old, scuffed, lacquer-stripped ball could be made to deviate violently at pace under hot, dry subcontinent sun.",
+      "Waqar Younis perfected the most feared delivery in cricket history: the reverse swinging full-length yorker delivered at over 145 km/h, tailing inward late toward the batter's toes."
+    ],
+    "sections": [
+      {
+        "heading": "The Aerodynamics of Reverse Laminar Separation",
+        "content": "Conventional swing occurs when air flows faster over the rough side, creating lower pressure. In reverse swing, as the ball reaches high speeds (typically above 85-90 mph), the boundary layer over the rough side turns turbulent much earlier and remains attached longer, generating net aerodynamic lateral force toward the rough side—the exact opposite of conventional swing."
+      },
+      {
+        "heading": "Waqar's Slinging Release and Lateral Angle",
+        "content": "Waqar utilized a distinctive round-arm, slinging bowling action. By dropping his arm angle slightly below classic vertical 12 o'clock to approximately 10 o'clock, he introduced acute horizontal trajectory across the crease. This exaggerated the visual deception before the late swing took effect."
+      },
+      {
+        "heading": "Why the Late Yorker Was Nearly Unplayable",
+        "content": "Because reverse swing initiates late—frequently within the final four to six meters of flight—the batter has already committed their front foot forward to drive. When the ball suddenly jinks through the air below knee height, adjusting bat placement becomes physiologically impossible, resulting in shattered stumps or lbw dismissals."
+      }
+    ],
+    "takeaways": [
+      "Reverse swing exploits turbulent boundary layer airflow over the scuffed hemisphere at high velocities.",
+      "Waqar's round-arm slinging release maximized late inward deviation at 145+ km/h.",
+      "Late trajectory within the final 6 meters bypassed batters' neurological reaction times."
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between conventional and reverse swing?",
+        "answer": "Conventional swing moves toward the rough side at lower speeds with a new ball; reverse swing occurs at high speeds with an old ball, swinging toward the rough side via turbulent air attachment."
+      },
+      {
+        "question": "What were Waqar Younis's career Test bowling figures?",
+        "answer": "Waqar claimed 373 wickets in 87 Test matches at an average of 23.56, with a strike rate of 43.4 balls per wicket—among the best in Test history."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
     "id": "abdul-qadir-leg-spin-legacy-pakistan-cricket",
     "category": "Player Focus",
     "badge": "SPIN LEGACY",
@@ -65,7 +169,7 @@
     "date": "13 Oct 2026",
     "read_time": "6 min read",
     "image_url": "assets/posts/dls-method-explained-rain-reduced-cricket-targets_cover.jpg",
-    "featured": true,
+    "featured": false,
     "body": [
       "Few things in cricket cause more confusion than a revised target after rain. The Duckworth-Lewis-Stern method, used in international limited-overs cricket, exists to answer one question fairly: if a match is shortened, what target gives both teams an equal chance?",
       "The method was devised by statisticians Frank Duckworth and Tony Lewis and first used in international cricket in 1997. After Professor Steven Stern updated the model for modern high-scoring cricket, the ICC renamed it Duckworth-Lewis-Stern in 2014.",

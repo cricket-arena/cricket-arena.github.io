@@ -2,61 +2,73 @@
 <urlset xmlns:ns0="http://www.google.com/schemas/sitemap-image/1.1" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://cricket-arena.github.io/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://cricket-arena.github.io/page/2/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
     <loc>https://cricket-arena.github.io/page/3/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://cricket-arena.github.io/posts/dew-factor-cricket-subcontinent-pitch-analytics-toss-impact/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://cricket-arena.github.io/posts/waqar-younis-in-dipping-yorker-reverse-swing-biomechanics/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://cricket-arena.github.io/posts/abdul-qadir-leg-spin-legacy-pakistan-cricket/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/dls-method-explained-rain-reduced-cricket-targets/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/high-altitude-conditioning-abbottabad-biometrics-bowler-workload/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/physics-reverse-swing-rawalpindi-aerodynamic-seam-scuffing/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/the-150-kph-load-index-fast-bowling-workload-management/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/finger-spin-telemetry-seam-shift-drift-middle-overs/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/white-ball-tactical-evolution-why-dot-ball-su-3bca0340/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -66,7 +78,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/champions-trophy-2026-pitch-engineering-rawal-cadb649a/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -76,7 +88,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/pcb-establishes-national-spin-bowling-academy-a4f6fa48/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -86,7 +98,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/the-tactical-shift-from-anchor-batting-to-hig-7863/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -96,7 +108,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/managing-the-145-kph-pace-battery-high-perfor-f810/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -106,7 +118,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/icc-delegation-approves-gaddafi-and-national--4145/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -116,7 +128,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/abbas-afridi-to-lead-pakistan-in-hong-kong-si-57c6/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -126,7 +138,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/pakistan-cricket-in-crisis-babar-out-shadab-r-f947/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -136,7 +148,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/psl-2027-calendar-alignment-and-player-retent-0680/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -146,7 +158,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/subcontinental-dew-dynamics-how-modern-revers-0415/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -156,7 +168,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/pakistan-squad-restructuring-for-sri-lanka-t2-8168/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -166,7 +178,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/naseem-shah-wrist-seam-biomechanical-breakdown/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -176,7 +188,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/champions-trophy-gaddafi-stadium-pitch-tactics/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -186,7 +198,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/pakistan-middle-overs-wrist-spin-analytics-blueprint/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -196,7 +208,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/babar-azam-back-foot-pivot-pace-analysis/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -206,7 +218,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/wide-yorker-evolution-pakistan-death-bowling-mastery/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -216,7 +228,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/pakistan-pace-battery-tactics-urdu/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -226,7 +238,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/babar-azam-technique-analysis-urdu/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -236,7 +248,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/champions-trophy-pakistan-venues-urdu/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -246,7 +258,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/reverse-swing-death-bowling-urdu/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -256,7 +268,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/psl-talent-analytics-draft-urdu/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -266,7 +278,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/shaheen-mcg-fiery-spell/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -276,7 +288,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/babar-azam-technique-breakdown/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -286,7 +298,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/pace-battery-revolution/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -296,7 +308,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/champions-trophy-tactical-blueprint/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -306,7 +318,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/death-bowling-yorker-evolution/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
@@ -316,7 +328,7 @@
   </url>
   <url>
     <loc>https://cricket-arena.github.io/posts/gaddafi-stadium-modernization/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <ns0:image>
