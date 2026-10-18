@@ -49,7 +49,9 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "image": "assets/posts/dew-factor-cricket-subcontinent-pitch-analytics-toss-impact_cover.jpg",
+    "cover_image": "assets/posts/dew-factor-cricket-subcontinent-pitch-analytics-toss-impact_cover.jpg"
   },
   {
     "id": "waqar-younis-in-dipping-yorker-reverse-swing-biomechanics",
@@ -101,7 +103,9 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "image": "assets/posts/waqar-younis-in-dipping-yorker-reverse-swing-biomechanics_cover.jpg",
+    "cover_image": "assets/posts/waqar-younis-in-dipping-yorker-reverse-swing-biomechanics_cover.jpg"
   },
   {
     "id": "abdul-qadir-leg-spin-legacy-pakistan-cricket",
@@ -153,7 +157,9 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "image": "assets/posts/abdul-qadir-leg-spin-legacy-pakistan-cricket_cover.jpg",
+    "cover_image": "assets/posts/abdul-qadir-leg-spin-legacy-pakistan-cricket_cover.jpg"
   },
   {
     "id": "dls-method-explained-rain-reduced-cricket-targets",
@@ -205,7 +211,9 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "image": "assets/posts/dls-method-explained-rain-reduced-cricket-targets_cover.jpg",
+    "cover_image": "assets/posts/dls-method-explained-rain-reduced-cricket-targets_cover.jpg"
   },
   {
     "id": "high-altitude-conditioning-abbottabad-biometrics-bowler-workload",
@@ -253,7 +261,9 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "image": "assets/posts/high-altitude-conditioning-abbottabad-biometrics-bowler-workload_cover.jpg",
+    "cover_image": "assets/posts/high-altitude-conditioning-abbottabad-biometrics-bowler-workload_cover.jpg"
   },
   {
     "id": "physics-reverse-swing-rawalpindi-aerodynamic-seam-scuffing",
@@ -301,7 +311,9 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "image": "assets/posts/physics-reverse-swing-rawalpindi-aerodynamic-seam-scuffing_cover.jpg",
+    "cover_image": "assets/posts/physics-reverse-swing-rawalpindi-aerodynamic-seam-scuffing_cover.jpg"
   },
   {
     "id": "the-150-kph-load-index-fast-bowling-workload-management",
@@ -349,7 +361,9 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "image": "assets/posts/the-150-kph-load-index-fast-bowling-workload-management_cover.jpg",
+    "cover_image": "assets/posts/the-150-kph-load-index-fast-bowling-workload-management_cover.jpg"
   },
   {
     "id": "finger-spin-telemetry-seam-shift-drift-middle-overs",
@@ -397,7 +411,9 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "image": "assets/posts/finger-spin-telemetry-seam-shift-drift-middle-overs_cover.jpg",
+    "cover_image": "assets/posts/finger-spin-telemetry-seam-shift-drift-middle-overs_cover.jpg"
   },
   {
     "id": "white-ball-tactical-evolution-why-dot-ball-su-3bca0340",
@@ -446,7 +462,8 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "image_url": "assets/posts/white-ball-tactical-evolution-why-dot-ball-su-3bca0340_cover.jpg"
   },
   {
     "id": "champions-trophy-2026-pitch-engineering-rawal-cadb649a",
@@ -495,7 +512,8 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "image_url": "assets/posts/champions-trophy-2026-pitch-engineering-rawal-cadb649a_cover.jpg"
   },
   {
     "id": "pcb-establishes-national-spin-bowling-academy-a4f6fa48",
@@ -544,7 +562,8 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "image_url": "assets/posts/pcb-establishes-national-spin-bowling-academy-a4f6fa48_cover.jpg"
   },
   {
     "id": "the-tactical-shift-from-anchor-batting-to-hig-7863",
@@ -589,7 +608,9 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "cover_image": "assets/posts/the-tactical-shift-from-anchor-batting-to-hig-7863_cover.jpg",
+    "image_url": "assets/posts/the-tactical-shift-from-anchor-batting-to-hig-7863_cover.jpg"
   },
   {
     "id": "managing-the-145-kph-pace-battery-high-perfor-f810",
@@ -634,7 +655,9 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "cover_image": "assets/posts/managing-the-145-kph-pace-battery-high-perfor-f810_cover.jpg",
+    "image_url": "assets/posts/managing-the-145-kph-pace-battery-high-perfor-f810_cover.jpg"
   },
   {
     "id": "icc-delegation-approves-gaddafi-and-national--4145",
@@ -679,7 +702,9 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "cover_image": "assets/posts/icc-delegation-approves-gaddafi-and-national--4145_cover.jpg",
+    "image_url": "assets/posts/icc-delegation-approves-gaddafi-and-national--4145_cover.jpg"
   },
   {
     "id": "abbas-afridi-to-lead-pakistan-in-hong-kong-si-57c6",
@@ -731,7 +756,9 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "cover_image": "assets/posts/abbas-afridi-to-lead-pakistan-in-hong-kong-si-57c6_cover.jpg",
+    "image_url": "assets/posts/abbas-afridi-to-lead-pakistan-in-hong-kong-si-57c6_cover.jpg"
   },
   {
     "id": "pakistan-cricket-in-crisis-babar-out-shadab-r-f947",
@@ -783,7 +810,9 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "cover_image": "assets/posts/pakistan-cricket-in-crisis-babar-out-shadab-r-f947_cover.jpg",
+    "image_url": "assets/posts/pakistan-cricket-in-crisis-babar-out-shadab-r-f947_cover.jpg"
   },
   {
     "id": "psl-2027-calendar-alignment-and-player-retent-0680",
@@ -827,7 +856,9 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "cover_image": "assets/posts/psl-2027-calendar-alignment-and-player-retent-0680_cover.jpg",
+    "image_url": "assets/posts/psl-2027-calendar-alignment-and-player-retent-0680_cover.jpg"
   },
   {
     "id": "subcontinental-dew-dynamics-how-modern-revers-0415",
@@ -871,7 +902,9 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "cover_image": "assets/posts/subcontinental-dew-dynamics-how-modern-revers-0415_cover.jpg",
+    "image_url": "assets/posts/subcontinental-dew-dynamics-how-modern-revers-0415_cover.jpg"
   },
   {
     "id": "pakistan-squad-restructuring-for-sri-lanka-t2-8168",
@@ -915,7 +948,9 @@
       }
     ],
     "social_format": "card",
-    "lang": "en"
+    "lang": "en",
+    "cover_image": "assets/posts/pakistan-squad-restructuring-for-sri-lanka-t2-8168_cover.jpg",
+    "image_url": "assets/posts/pakistan-squad-restructuring-for-sri-lanka-t2-8168_cover.jpg"
   },
   {
     "id": "naseem-shah-wrist-seam-biomechanical-breakdown",
@@ -982,7 +1017,9 @@
     ],
     "social_format": "card",
     "lang": "en",
-    "image": "assets/posts/naseem-shah-wrist-seam-biomechanical-breakdown_cover.jpg"
+    "image": "assets/posts/naseem-shah-wrist-seam-biomechanical-breakdown_cover.jpg",
+    "cover_image": "assets/posts/naseem-shah-wrist-seam-biomechanical-breakdown_cover.jpg",
+    "image_url": "assets/posts/naseem-shah-wrist-seam-biomechanical-breakdown_cover.jpg"
   },
   {
     "id": "champions-trophy-gaddafi-stadium-pitch-tactics",
@@ -1049,7 +1086,9 @@
     ],
     "social_format": "card",
     "lang": "en",
-    "image": "assets/posts/champions-trophy-gaddafi-stadium-pitch-tactics_cover.jpg"
+    "image": "assets/posts/champions-trophy-gaddafi-stadium-pitch-tactics_cover.jpg",
+    "cover_image": "assets/posts/champions-trophy-gaddafi-stadium-pitch-tactics_cover.jpg",
+    "image_url": "assets/posts/champions-trophy-gaddafi-stadium-pitch-tactics_cover.jpg"
   },
   {
     "id": "pakistan-middle-overs-wrist-spin-analytics-blueprint",
@@ -1116,7 +1155,9 @@
     ],
     "social_format": "card",
     "lang": "en",
-    "image": "assets/posts/pakistan-middle-overs-wrist-spin-analytics-blueprint_cover.jpg"
+    "image": "assets/posts/pakistan-middle-overs-wrist-spin-analytics-blueprint_cover.jpg",
+    "cover_image": "assets/posts/pakistan-middle-overs-wrist-spin-analytics-blueprint_cover.jpg",
+    "image_url": "assets/posts/pakistan-middle-overs-wrist-spin-analytics-blueprint_cover.jpg"
   },
   {
     "id": "babar-azam-back-foot-pivot-pace-analysis",
@@ -1183,7 +1224,9 @@
     ],
     "social_format": "card",
     "lang": "en",
-    "image": "assets/posts/babar-azam-back-foot-pivot-pace-analysis_cover.jpg"
+    "image": "assets/posts/babar-azam-back-foot-pivot-pace-analysis_cover.jpg",
+    "cover_image": "assets/posts/babar-azam-back-foot-pivot-pace-analysis_cover.jpg",
+    "image_url": "assets/posts/babar-azam-back-foot-pivot-pace-analysis_cover.jpg"
   },
   {
     "id": "wide-yorker-evolution-pakistan-death-bowling-mastery",
@@ -1250,7 +1293,9 @@
     ],
     "social_format": "card",
     "lang": "en",
-    "image": "assets/posts/wide-yorker-evolution-pakistan-death-bowling-mastery_cover.jpg"
+    "image": "assets/posts/wide-yorker-evolution-pakistan-death-bowling-mastery_cover.jpg",
+    "cover_image": "assets/posts/wide-yorker-evolution-pakistan-death-bowling-mastery_cover.jpg",
+    "image_url": "assets/posts/wide-yorker-evolution-pakistan-death-bowling-mastery_cover.jpg"
   },
   {
     "id": "pakistan-pace-battery-tactics-urdu",
@@ -1315,7 +1360,9 @@
       "شاہین آفریدی کی نئی گیند سے ان سوئنگ پر وکٹ لینے کا تناسب دنیا بھر میں سرفہرست ہے۔",
       "نسیم شاہ کی سیم پریزنٹیشن 144 کلومیٹر کی رفتار پر بھی شاندار استحکام برقرار رکھتی ہے۔",
       "حارث رؤف کے وائیڈ یارکرز نے ڈیتھ اوورز میں پاکستان کے اکانومی ریٹ کو 7.1 پر محدود کر دیا ہے۔"
-    ]
+    ],
+    "cover_image": "assets/posts/pakistan-pace-battery-tactics-urdu_cover.jpg",
+    "image_url": "assets/posts/pakistan-pace-battery-tactics-urdu_cover.jpg"
   },
   {
     "id": "babar-azam-technique-analysis-urdu",
@@ -1368,7 +1415,9 @@
       "بابر اعظم کا فاسٹ بولرز کے خلاف 89.4 فیصد کنٹرول ریٹ عالمی سطح پر ٹاپ پوزیشن پر ہے۔",
       "کور ڈرائیو کی باؤنڈری پرورژن ریٹ 64 فیصد ہے، یعنی زیادہ تر شاٹس چار رنز میں تبدیل ہوتے ہیں۔",
       "ون ڈے کرکٹ کے پہلے 30 اوورز میں بابر اعظم کی اوسط 62 سے تجاوز کر جاتی ہے۔"
-    ]
+    ],
+    "cover_image": "assets/posts/babar-azam-technique-analysis-urdu_cover.jpg",
+    "image_url": "assets/posts/babar-azam-technique-analysis-urdu_cover.jpg"
   },
   {
     "id": "champions-trophy-pakistan-venues-urdu",
@@ -1420,7 +1469,9 @@
       "قذافی اسٹیڈیم میں 34 ہزار نشستوں کی جدید تجدید مکمل ہو چکی ہے۔",
       "لاہور کی پچوں پر مڈل اوورز کا اسپن چوک چیمپئنز ٹرافی میں فیصلہ کن عنصر ہو گا۔",
       "نیشنل بینک اسٹیڈیم کراچی میں ڈریسنگ رومز اور ہاسپیٹلیٹی باکسز کو انٹرنیشنل فائیو اسٹار معیار پر اپ گریڈ کیا گیا ہے۔"
-    ]
+    ],
+    "cover_image": "assets/posts/champions-trophy-pakistan-venues-urdu_cover.jpg",
+    "image_url": "assets/posts/champions-trophy-pakistan-venues-urdu_cover.jpg"
   },
   {
     "id": "reverse-swing-death-bowling-urdu",
@@ -1472,7 +1523,9 @@
       "پاکستان کے تیز گیند بازوں کی وائیڈ یارکرز لینڈ کرنے کی شرح 71.4 فیصد کے ساتھ دنیا میں سرفہرست ہے۔",
       "ریورس سوئنگ 140 کلومیٹر فی گھنٹہ سے زائد رفتار پر بلے باز کو ردعمل کے لیے صرف 0.35 سیکنڈ دیتی ہے۔",
       "وائیڈ یارکرز نے روایتی یارکرز کے مقابلے میں باؤنڈریز میں 34 فیصد کمی ریکارڈ کروائی ہے۔"
-    ]
+    ],
+    "cover_image": "assets/posts/reverse-swing-death-bowling-urdu_cover.jpg",
+    "image_url": "assets/posts/reverse-swing-death-bowling-urdu_cover.jpg"
   },
   {
     "id": "psl-talent-analytics-draft-urdu",
@@ -1524,7 +1577,9 @@
       "پی ایس ایل نے پچھلے 5 سالوں میں پاکستان کو 10 سے زائد انٹرنیشنل لیول کے فاسٹ بولرز فراہم کیے ہیں۔",
       "ٹیپ بال کے کھلاڑیوں کی آرم اسپیڈ روایتی راستوں سے آنے والے بولرز کے مقابلے میں کہیں زیادہ تیز ہوتی ہے۔",
       "جدید فرنچائز ڈیٹا اینالیٹکس نے ٹیلنٹ کے انتخاب کے عمل کو شفاف اور میرٹ پر مبنی بنا دیا ہے۔"
-    ]
+    ],
+    "cover_image": "assets/posts/psl-talent-analytics-draft-urdu_cover.jpg",
+    "image_url": "assets/posts/psl-talent-analytics-draft-urdu_cover.jpg"
   },
   {
     "id": "shaheen-mcg-fiery-spell",
@@ -1578,7 +1633,9 @@
       "Shaheen conceded only 4 boundaries in his entire 10-over quota at the MCG.",
       "Inward deviation averaged 1.8 degrees off the seam at 144.2 kph.",
       "Pakistan's death-overs economy rate dropped to 4.2 under his leadership in the series."
-    ]
+    ],
+    "cover_image": "assets/posts/shaheen-mcg-fiery-spell_cover.jpg",
+    "image_url": "assets/posts/shaheen-mcg-fiery-spell_cover.jpg"
   },
   {
     "id": "babar-azam-technique-breakdown",
@@ -1631,7 +1688,9 @@
       "Maintained an 89.4% control rate across all formats against 140+ kph seam bowling.",
       "Front-foot contact occurs 0.08 seconds earlier than the global tournament average.",
       "Averages over 62 when batting through the first 30 overs in 50-over international cricket."
-    ]
+    ],
+    "cover_image": "assets/posts/babar-azam-technique-breakdown_cover.jpg",
+    "image_url": "assets/posts/babar-azam-technique-breakdown_cover.jpg"
   },
   {
     "id": "pace-battery-revolution",
@@ -1684,7 +1743,9 @@
       "Pakistan pacers have logged the highest tally of 150+ kph deliveries in ICC tournament history.",
       "Biometric surveillance reduced spinal stress injuries by 40% across national academies.",
       "Tape-ball arm mechanics generate 6% faster hand release than traditional coaching pipelines."
-    ]
+    ],
+    "cover_image": "assets/posts/pace-battery-revolution_cover.jpg",
+    "image_url": "assets/posts/pace-battery-revolution_cover.jpg"
   },
   {
     "id": "champions-trophy-tactical-blueprint",
@@ -1732,7 +1793,9 @@
       "Subcontinental pitches experience a 14% drop in boundary frequency during afternoon heat.",
       "Spin chokes in overs 15–35 yield an average of 2.4 wickets per match.",
       "Reverse swing onset occurs between overs 32 and 36 on abrasive subcontinental outfields."
-    ]
+    ],
+    "cover_image": "assets/posts/champions-trophy-tactical-blueprint_cover.jpg",
+    "image_url": "assets/posts/champions-trophy-tactical-blueprint_cover.jpg"
   },
   {
     "id": "death-bowling-yorker-evolution",
@@ -1774,7 +1837,9 @@
       "Wide yorkers conceded 34% fewer boundaries than straight yorkers across the 2026 calendar.",
       "Batters generate 22% less exit velocity when forced to reach wide outside off stump.",
       "Pakistan's pace unit leads the world in wide yorker accuracy at a 71.4% landing rate."
-    ]
+    ],
+    "cover_image": "assets/posts/death-bowling-yorker-evolution_cover.jpg",
+    "image_url": "assets/posts/death-bowling-yorker-evolution_cover.jpg"
   },
   {
     "id": "gaddafi-stadium-modernization",
@@ -1816,6 +1881,8 @@
       "Sub-air vacuum drainage evacuates 100mm of rainwater in under 20 minutes.",
       "New 360-degree LED ring consumes 45% less power with zero flicker at 1,000 fps slow-mo.",
       "Hospitality capacity expanded to 34,000 with improved unobstructed sightlines across all tiers."
-    ]
+    ],
+    "cover_image": "assets/posts/gaddafi-stadium-modernization_cover.jpg",
+    "image_url": "assets/posts/gaddafi-stadium-modernization_cover.jpg"
   }
 ]
