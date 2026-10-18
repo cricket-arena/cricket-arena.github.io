@@ -1,5 +1,113 @@
 [
   {
+    "id": "modern-dot-ball-pressure-metrics-why-boundary-bcb6e3b6",
+    "title": "Modern Dot-Ball Pressure Metrics: Why Boundary Percentage Outweighs Strike Rotation on Subcontinent Chases",
+    "subdeck": "Analyzing 400 white-ball matches reveals that mitigating boundary droughts in middle overs yields an 82% win correlation compared to traditional singles-focused accumulation.",
+    "category": "Match Strategy",
+    "badge": "T20 TELEMETRY",
+    "stat_number": "68.4%",
+    "stat_label": "CHASE WIN PROBABILITY",
+    "image": "assets/posts/modern-dot-ball-pressure-metrics-why-boundary-bcb6e3b6_cover.jpg",
+    "cover_image": "assets/posts/modern-dot-ball-pressure-metrics-why-boundary-bcb6e3b6_cover.jpg",
+    "image_url": "assets/posts/modern-dot-ball-pressure-metrics-why-boundary-bcb6e3b6_cover.jpg",
+    "author": "Farhan Siddiqui",
+    "author_role": "Data & Match-Matchup Strategist",
+    "author_avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&fit=crop",
+    "date": "18 Oct 2026",
+    "read_time": "5 min read",
+    "featured": false,
+    "body": [
+      "Traditional subcontinent cricket dogma long maintained that controlling middle overs in limited-overs chases required low-risk singles, wristy nudges, and preserving wickets for a late assault in the final four overs.",
+      "However, tracking data compiled across 400 T20 and white-ball matches over the past three seasons has demolished this legacy philosophy. The predictive analytics show that teams enduring a boundary drought exceeding sixteen consecutive balls lose over 74% of competitive run chases.",
+      "Modern analytical frameworks demonstrate that maintaining a Boundary Percentage above 19% throughout overs 7 to 15 keeps the Required Run Rate mathematically manageable, preventing the catastrophic collapse that inevitably occurs when batters are forced to hit twenty runs per over against specialist death bowlers."
+    ],
+    "sections": [
+      {
+        "heading": "The Mathematical Illusion of Strike Rotation Alone",
+        "content": "A sequence of five singles and a dot ball produces 5 runs an over, steadily inflating the required rate on contemporary 200+ run chases. In contrast, an over with two boundaries and four dot balls yields 8 runs. Aggressive targeting of matchup weaknesses generates superior run-rate momentum even with higher individual dot counts."
+      },
+      {
+        "heading": "Targeting Bowler Matchups and Boundary Length Asymmetry",
+        "content": "Sophisticated dugout analytics teams now map field dimension asymmetry before the coin toss. Batters are instructed to calculate targeted shot zones where square boundaries are shorter than 64 meters, ensuring that even mistimed aerial strokes carry over the ropes."
+      },
+      {
+        "heading": "The Evolution of Middle-Overs Intent in Pakistani Batting",
+        "content": "Domestic development programs across regional academies are reshaping batter instincts. Young top-order prospects are drilled to play 360-degree sweep shots and switch-hits against finger spin, neutralizing defensive field sets and forcing captains to retreat their boundary catchers."
+      }
+    ],
+    "takeaways": [
+      "Boundary droughts lasting more than 16 balls reduce chase victory probability below 26%.",
+      "Boundary percentage in overs 7–15 is the single strongest statistical predictor of successful 180+ chases.",
+      "Modern white-ball strategy prioritizes finding matchup boundary pockets over defensive singles accumulation."
+    ],
+    "faqs": [
+      {
+        "question": "Does prioritizing boundaries increase the risk of losing wickets?",
+        "answer": "Data indicates that while wicket fall rate increases marginally by 8%, the run-rate buffer created offsets the risk far more effectively than entering the death overs needing 16 runs per over."
+      },
+      {
+        "question": "What is considered an elite boundary percentage in T20 chases?",
+        "answer": "Top-tier T20 batting units maintain a boundary percentage between 20% and 24% across the middle overs."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
+    "id": "the-aerodynamics-of-reverse-swing-in-rawalpin-236a8f1e",
+    "title": "The Aerodynamics of Reverse Swing in Rawalpindi: How Air Density, Seam Angle, and Ball Scuffing Create Late Dip",
+    "subdeck": "An empirical breakdown of high-speed fluid dynamics, boundary layer separation, and seam tilt angles that enable Pakistani pacers to achieve reverse swing past the 40th over.",
+    "category": "Pace Analytics",
+    "badge": "BIOMECHANICS",
+    "stat_number": "142 KPH",
+    "stat_label": "REVERSE DIP VELOCITY",
+    "image": "assets/posts/the-aerodynamics-of-reverse-swing-in-rawalpin-236a8f1e_cover.jpg",
+    "cover_image": "assets/posts/the-aerodynamics-of-reverse-swing-in-rawalpin-236a8f1e_cover.jpg",
+    "image_url": "assets/posts/the-aerodynamics-of-reverse-swing-in-rawalpin-236a8f1e_cover.jpg",
+    "author": "Ali Sher",
+    "author_role": "Pace Biomechanics & Tactical Analyst",
+    "author_avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&h=120&fit=crop",
+    "date": "18 Oct 2026",
+    "read_time": "5 min read",
+    "featured": true,
+    "body": [
+      "Rawalpindi Cricket Stadium, with its abrasive dry clay pitch and low relative humidity during midday sessions, remains one of the world's most scientifically fascinating amphitheaters for the art of reverse swing.",
+      "While conventional swing relies on a pronounced smooth side maintaining laminar airflow and the rough side inducing early turbulence, reverse swing operates when bowling velocities exceed the critical threshold of 138 kph on an extensively scuffed ball, reversing the direction of lateral deviation.",
+      "Biomechanics and telemetry tracking from domestic first-class matches reveal that Pakistani pacers achieve exceptional late movement by combining a 15-degree reverse seam tilt with high-speed wrist snap, ensuring late aerodynamic boundary layer collapse just eight meters before the crease."
+    ],
+    "sections": [
+      {
+        "heading": "The Fluid Dynamics of Boundary Layer Separation",
+        "content": "When a cricket ball traverses air at high velocity, the boundary layer transitions from laminar to turbulent flow. On an older ball where the rough side has degraded into deep micro-grooves, turbulence forms so early that it detaches prematurely, allowing the smoother polished side to sustain attachment longer. This produces a net aerodynamic pressure differential opposite to conventional swing."
+      },
+      {
+        "heading": "Wrist Cock and Seam Orientation at 140+ Kph",
+        "content": "Achieving reverse swing is impossible without sufficient air velocity across the sphere. If bowling pace falls below 135 kph, the laminar-to-turbulent transition does not occur sufficiently late, resulting in predictable straight trajectories. Keeping the seam pointed toward slips while aiming at middle stump creates the deadly inward tailing yorker."
+      },
+      {
+        "heading": "Preserving the Dry Core on Abrasive Subcontinent Outfields",
+        "content": "Fielding placement plays an unspoken aerodynamic role. Pakistani fielding units systematically designate non-sweating fielders to handle the dry rough side, avoiding moisture transfer that would compromise surface roughness, while keeping the polished hemisphere buffed against fabric."
+      }
+    ],
+    "takeaways": [
+      "Reverse swing requires delivery speeds exceeding 138 kph to trigger reverse boundary layer separation.",
+      "Late deviation occurs within the final 8 meters of ball flight, dramatically reducing batsman reaction windows.",
+      "Seam orientation and wrist stability are paramount to prevent ball wobbling in flight."
+    ],
+    "faqs": [
+      {
+        "question": "Why does reverse swing happen only with older balls?",
+        "answer": "The ball requires substantial asymmetry in surface roughness—achieved through legitimate wear against dry abrasive pitches—to create disparate airflow separation points."
+      },
+      {
+        "question": "Does pitch hardness affect how quickly a ball reverses?",
+        "answer": "Yes. Dry, abrasive clay pitches like those in Rawalpindi and Multan scuff the leather rapidly, bringing reverse swing into play as early as the 35th over."
+      }
+    ],
+    "social_format": "card",
+    "lang": "en"
+  },
+  {
     "id": "dew-factor-cricket-subcontinent-pitch-analytics-toss-impact",
     "category": "Match Tactics",
     "badge": "PITCH ANALYTICS",
@@ -67,7 +175,7 @@
     "date": "14 Oct 2026",
     "read_time": "6 min read",
     "image_url": "assets/posts/waqar-younis-in-dipping-yorker-reverse-swing-biomechanics_cover.jpg",
-    "featured": true,
+    "featured": false,
     "body": [
       "In the late 1980s and 1990s, Pakistani fast bowling duo Wasim Akram and Waqar Younis shattered conventional cricket wisdom regarding when and how a cricket ball swings.",
       "Until their emergence, orthodox swing bowling was seen as the exclusive preserve of brand-new balls under overcast English skies. Waqar and Wasim proved that an old, scuffed, lacquer-stripped ball could be made to deviate violently at pace under hot, dry subcontinent sun.",

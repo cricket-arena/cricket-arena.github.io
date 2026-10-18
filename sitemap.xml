@@ -19,6 +19,32 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://cricket-arena.github.io/page/4/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://cricket-arena.github.io/posts/modern-dot-ball-pressure-metrics-why-boundary-bcb6e3b6/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <ns0:image>
+      <ns0:loc>https://cricket-arena.github.io/assets/posts/modern-dot-ball-pressure-metrics-why-boundary-bcb6e3b6_cover.jpg</ns0:loc>
+      <ns0:title>Modern Dot-Ball Pressure Metrics: Why Boundary Percentage Outweighs Strike Rotation on Subcontinent Chases</ns0:title>
+    </ns0:image>
+  </url>
+  <url>
+    <loc>https://cricket-arena.github.io/posts/the-aerodynamics-of-reverse-swing-in-rawalpin-236a8f1e/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <ns0:image>
+      <ns0:loc>https://cricket-arena.github.io/assets/posts/the-aerodynamics-of-reverse-swing-in-rawalpin-236a8f1e_cover.jpg</ns0:loc>
+      <ns0:title>The Aerodynamics of Reverse Swing in Rawalpindi: How Air Density, Seam Angle, and Ball Scuffing Create Late Dip</ns0:title>
+    </ns0:image>
+  </url>
+  <url>
     <loc>https://cricket-arena.github.io/posts/dew-factor-cricket-subcontinent-pitch-analytics-toss-impact/</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
